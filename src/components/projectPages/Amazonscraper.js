@@ -51,6 +51,7 @@ function IdeaVault() {
 
                                     <img src={scraper} alt='ideaimages' className='ideaimages' />
                                     <div className='textIntro'>
+                                        <div>testing to see if white</div>
                                     	<p>
                                         The Amazon Web Scraper is a backend-focused automation tool built to extract
                                         structured product data from Amazon product pages. The project demonstrates
@@ -107,6 +108,7 @@ function IdeaVault() {
                                         ☆ Error Handling: Try/catch and fallback selectors for resilience<br />
 
                                         ☆ Environment Management: dotenv for managing configuration<br />
+                                        <div>testing to see if white</div>
                                     </p>
                                     </div>
                                     <div className='facticons'>
