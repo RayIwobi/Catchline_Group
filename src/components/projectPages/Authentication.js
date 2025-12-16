@@ -61,7 +61,7 @@ function IdeaVault() {
 
                                         The system enforces protected routes and role-based access control, ensuring that
                                         restricted features are accessible only to authenticated users. User sessions are
-                                        managed efficiently to prevent unauthorized access and token misuse.<br /><br />
+                                        managed efficiently to prevent unauthorized access and token misuse.<br />
                                     </p>
 
                                     <p>
