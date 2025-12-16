@@ -51,68 +51,69 @@ function IdeaVault() {
 
                                     <img src={scraper} alt='ideaimages' className='ideaimages' />
                                     <div className='textIntro'>
-                                        <div>testing to see if white</div>
-                                    	<p>
-                                        The Amazon Web Scraper is a backend-focused automation tool built to extract
-                                        structured product data from Amazon product pages. The project demonstrates
-                                        practical experience in web scraping, data parsing, and automation while handling
-                                        real-world challenges such as dynamic content and data consistency.<br /><br />
+                                        <div>
+                                            <p>
+                                                The Amazon Web Scraper is a backend-focused automation tool built to extract
+                                                structured product data from Amazon product pages. The project demonstrates
+                                                practical experience in web scraping, data parsing, and automation while handling
+                                                real-world challenges such as dynamic content and data consistency.<br /><br />
 
-                                        The scraper is designed to collect key product information including product
-                                        titles, prices, ratings, availability status, and images, transforming unstructured
-                                        web content into clean, usable data. This makes it useful for price tracking,
-                                        market research, competitor analysis, and data-driven decision-making.<br /><br />
+                                                The scraper is designed to collect key product information including product
+                                                titles, prices, ratings, availability status, and images, transforming unstructured
+                                                web content into clean, usable data. This makes it useful for price tracking,
+                                                market research, competitor analysis, and data-driven decision-making.<br /><br />
 
-                                        The application processes scraped data and outputs it in a structured format
-                                        that can be stored, analyzed, or integrated into other systems. Emphasis was
-                                        placed on reliability, efficiency, and accuracy during data extraction.<br /><br />
-                                    </p>
-                                    <img src={scraper1} alt='ideaimages' className='ideaimages' />
+                                                The application processes scraped data and outputs it in a structured format
+                                                that can be stored, analyzed, or integrated into other systems. Emphasis was
+                                                placed on reliability, efficiency, and accuracy during data extraction.<br /><br />
+                                            </p>
+                                        </div>
+                                        <img src={scraper1} alt='ideaimages' className='ideaimages' />
 
-                                    <p>
-                                        The project highlights an understanding of HTTP requests, DOM parsing, and
-                                        anti-scraping considerations, while maintaining a clean and maintainable codebase.<br /><br />
+                                        <p>
+                                            The project highlights an understanding of HTTP requests, DOM parsing, and
+                                            anti-scraping considerations, while maintaining a clean and maintainable codebase.<br /><br />
 
-                                        Overall, the Amazon Web Scraper showcases backend engineering skills, automation
-                                        logic, and real-world data handling techniques.<br /><br />
-                                    </p>
+                                            Overall, the Amazon Web Scraper showcases backend engineering skills, automation
+                                            logic, and real-world data handling techniques.<br /><br />
+                                        </p>
 
 
-                                    <p>
-                                        Key Features<br /><br />
+                                        <p>
+                                            Key Features<br /><br />
 
-                                        ☆ Scrapes Amazon product pages for structured data<br />
+                                            ☆ Scrapes Amazon product pages for structured data<br />
 
-                                        ☆ Extracts product name, price, ratings, availability, and images<br />
+                                            ☆ Extracts product name, price, ratings, availability, and images<br />
 
-                                        ☆ Parses and cleans HTML content into usable data<br />
+                                            ☆ Parses and cleans HTML content into usable data<br />
 
-                                        ☆ Handles dynamic page structures and missing data gracefully<br />
+                                            ☆ Handles dynamic page structures and missing data gracefully<br />
 
-                                        ☆ Outputs data in structured formats (JSON)<br />
+                                            ☆ Outputs data in structured formats (JSON)<br />
 
-                                        ☆ Designed for reuse and extension<br /><br />
+                                            ☆ Designed for reuse and extension<br /><br />
 
-                                        Tools & Technologies Used<br /><br />
+                                            Tools & Technologies Used<br /><br />
 
-                                        ☆ Runtime: Node.js for executing scraping logic<br />
+                                            ☆ Runtime: Node.js for executing scraping logic<br />
 
-                                        ☆ HTTP Requests: Axios / Fetch for requesting Amazon pages<br />
+                                            ☆ HTTP Requests: Axios / Fetch for requesting Amazon pages<br />
 
-                                        ☆ HTML Parsing: Cheerio for DOM traversal and data extraction<br />
+                                            ☆ HTML Parsing: Cheerio for DOM traversal and data extraction<br />
 
-                                        ☆ Data Processing: JavaScript for cleaning and structuring scraped data<br />
+                                            ☆ Data Processing: JavaScript for cleaning and structuring scraped data<br />
 
-                                        ☆ Output Format: JSON for easy storage and integration<br />
+                                            ☆ Output Format: JSON for easy storage and integration<br />
 
-                                        ☆ Error Handling: Try/catch and fallback selectors for resilience<br />
+                                            ☆ Error Handling: Try/catch and fallback selectors for resilience<br />
 
-                                        ☆ Environment Management: dotenv for managing configuration<br />
-                                        <div>testing to see if white</div>
-                                    </p>
+                                            ☆ Environment Management: dotenv for managing configuration<br />
+                                            <div>testing to see if white</div>
+                                        </p>
                                     </div>
                                     <div className='facticons'>
-                                         <Link to='https://github.com/rayiwobi/Amazon-Scraper-API_backend-project' ><div className='conicons'></div> </Link>
+                                        <Link to='https://github.com/rayiwobi/Amazon-Scraper-API_backend-project' ><div className='conicons'></div> </Link>
                                         <Link to='https://amazon-scrapert.vercel.app/'><button className='coniconsbutton'>live website</button></Link>
                                     </div>
                                 </div>
