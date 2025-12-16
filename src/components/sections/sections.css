@@ -41,6 +41,11 @@ p{
     background: linear-gradient(90deg, gray, white, gray);
     border-radius: 10px;
 }
+@media screen and (max-width:600px){
+    .longline{
+        width: 150px;
+    }
+}
 
 .textIntro{
     line-height: 1.6;
