@@ -24,6 +24,16 @@ body{
     color: rgb(230, 223, 223);
 }
 
+.experiencedesign p{
+    color: white;
+}
+.experiencedesign p:hover{
+    color: white;
+}
+p{
+    color: white;
+}
+
 .longline{
     width: 200px;
     height: 6px;
@@ -269,6 +279,11 @@ textarea{
     font-family: 'Nunito', sans-serif;
 }
 
-
+@media screen and (max-screen:600px){
+    p{
+        color: white;
+        font-size: 18px;
+    }
+}
 /* END ABOUT ME */
 

@@ -2,6 +2,7 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 .mainContainer {
@@ -53,6 +54,17 @@ body {
 }
 .maincontent-inner{
     padding: 60px;
+}
+
+@media screen and (max-width:600px){
+    .maincontent{
+        width: 90%;
+        color: white;
+    }
+    .maincontent-inner{
+        width: 90%;
+        color: white;
+    }
 }
 
 #imagetest {
