@@ -13,6 +13,7 @@ body{
     font-size: 40px;
     font-weight: bold;
     width: auto;
+    margin-top: 15px;
 }
 @media screen and (max-width:600px){
     .portfolio-title{
@@ -321,15 +322,3 @@ textarea{
 }
 /* END ABOUT ME */
 
-/* SECTION CONTENT */
-.sectionContent{
-    font-size: 18px;
-    color: white;
-}
-@media screen and (max-width:60px){
-    .sectionContent{
-        font-size: 18px;
-        color: white;
-    }
-}
-/* END SECTION CONTENT */

@@ -271,4 +271,8 @@ p{
 
 .projectsContent{
     margin-top: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
 }
