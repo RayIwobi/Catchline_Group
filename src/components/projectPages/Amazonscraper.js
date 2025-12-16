@@ -47,6 +47,7 @@ function IdeaVault() {
                                         <img src={handpointing} alt='livewebsite' />
                                         <Link to='https://amazon-scrapert.vercel.app/'>Live website</Link>
                                     </div>
+                                    <div>testing to see if white</div>
 
                                     <img src={scraper} alt='ideaimages' className='ideaimages' />
                                     <div className='textIntro'>
