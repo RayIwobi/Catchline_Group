@@ -10,7 +10,7 @@ function About() {
           <div id='devcolor'>AS A DEVELOPER</div>
           <div className='longline'></div>
           <div className='aboutme'>
-            <p>
+            <p style={{color:'white', fontSize:'18px'}}>
               My journey as a software developer is rooted in a strong foundation of real‑world IT 
               experience and a continuous drive to evolve with technology. I began my professional 
               career as an IT Specialist, spending over seven years in the banking sector, 

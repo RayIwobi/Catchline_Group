@@ -226,6 +226,9 @@ p{
     #backbtn{
         display: none;
     }
+    .projectpages h1{
+        font-size: 25px;
+    }
    
 }
 
