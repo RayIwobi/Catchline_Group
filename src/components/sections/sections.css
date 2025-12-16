@@ -321,3 +321,15 @@ textarea{
 }
 /* END ABOUT ME */
 
+/* SECTION CONTENT */
+.sectionContent{
+    font-size: 18px;
+    color: white;
+}
+@media screen and (max-width:60px){
+    .sectionContent{
+        font-size: 18px;
+        color: white;
+    }
+}
+/* END SECTION CONTENT */
