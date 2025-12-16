@@ -49,7 +49,8 @@ function IdeaVault() {
                                     </div>
 
                                     <img src={scraper} alt='ideaimages' className='ideaimages' />
-                                    <p>
+                                    <div className='textIntro'>
+                                    	<p>
                                         The Amazon Web Scraper is a backend-focused automation tool built to extract
                                         structured product data from Amazon product pages. The project demonstrates
                                         practical experience in web scraping, data parsing, and automation while handling
@@ -106,6 +107,7 @@ function IdeaVault() {
 
                                         ☆ Environment Management: dotenv for managing configuration<br />
                                     </p>
+                                    </div>
                                     <div className='facticons'>
                                          <Link to='https://github.com/rayiwobi/Amazon-Scraper-API_backend-project' ><div className='conicons'></div> </Link>
                                         <Link to='https://amazon-scrapert.vercel.app/'><button className='coniconsbutton'>live website</button></Link>
