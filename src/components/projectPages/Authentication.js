@@ -48,7 +48,7 @@ function IdeaVault() {
                                     </div>
 
                                     <img src={authenticate} alt='ideaimages' className='ideaimages' />
-                                    <p>
+                                        <div className='projectsContent'>
                                         The Authentication & Login System is a robust user access management solution
                                         built to securely handle user registration, login, session management, and
                                         protected access across a full-stack application. The system focuses on security,
@@ -62,9 +62,9 @@ function IdeaVault() {
                                         The system enforces protected routes and role-based access control, ensuring that
                                         restricted features are accessible only to authenticated users. User sessions are
                                         managed efficiently to prevent unauthorized access and token misuse.<br />
-                                    </p>
+                                    </div>
 
-                                    <p>
+                                        <div className='projectsContent'>
                                         Security best practices are implemented throughout the system, including password 
                                         hashing, secure token storage, and server-side validation, making the authentication 
                                         flow production-ready.<br /><br />
@@ -107,7 +107,7 @@ function IdeaVault() {
                                         ☆ API Communication: Axios with withCredentials for cookie-based auth<br />
 
                                         ☆ Environment Management: dotenv for managing secrets<br />
-                                    </p>
+                                    </div>
                                     <div className='facticons'>
                                          <Link to='https://github.com/RayIwobi/Authentication-App_fullstack-project' >
                                          <div className='conicons'></div> 

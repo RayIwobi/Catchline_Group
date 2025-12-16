@@ -49,7 +49,7 @@ function Yarnix() {
                                     </div>
 
                                     <img src={yar1} alt='ideaimages' className='ideaimages' />
-                                    <p>
+                                        <div className='projectsContent'>
                                         Yarnix is a full-stack social media application built to connect users through
                                         posts, interactions, and real-time engagement. Inspired by modern social
                                         networking platforms, Yarnix focuses on creating a familiar yet streamlined
@@ -64,22 +64,22 @@ function Yarnix() {
                                         Yarnix supports real-time social interactions, ensuring users see updates and
                                         responses instantly. This enhances engagement and creates a dynamic, live social
                                         experience rather than a static feed.<br /><br />
-                                    </p>
+                                    </div>
                                     <img src={yar2} alt='ideaimages' className='ideaimages' />
 
-                                    <p>
+                                        <div className='projectsContent'>
                                         A personalized feed system displays posts from users across the platform, enabling
                                         content discovery and continuous engagement. Users can explore, react, and participate
                                         in conversations naturally, similar to mainstream social media platforms.<br /><br />
 
                                         Security and privacy are central to Yarnix. Authentication ensures that user actions
                                         such as posting, commenting, and liking are restricted to logged-in users, while
-                                        ownership-based permissions prevent unauthorized actions on content.<br /><br />
-                                    </p>
+                                        ownership-based permissions prevent unauthorized actions on content.<br />
+                                    </div>
 
 
 
-                                    <p>
+                                        <div className='projectsContent'>
                                         Overall, Yarnix demonstrates a scalable social media architecture, combining real-time 
                                         interaction, user-generated content, and secure authentication into a cohesive, modern 
                                         platform.<br /><br />
@@ -121,7 +121,7 @@ function Yarnix() {
                                         ☆ Security: Authorization checks for post and comment ownership<br />
 
                                         ☆ Deployment: Cloud-based hosting for scalability<br />
-                                    </p>
+                                    </div>
                                     <div className='facticons'>
                                          <Link to='' ><div className='conicons'></div> </Link>
                                         <Link to=''><button className='coniconsbutton'>live website</button></Link>

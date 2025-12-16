@@ -50,7 +50,7 @@ function Quizapp() {
                                     </div>
 
                                     <img src={waec} alt='ideaimages' className='ideaimages' />
-                                    <p>
+                                    <div className='projectsContent'>
                                         The WAEC CBT Quiz Application is an interactive computer-based testing platform
                                         designed to help students prepare effectively for the WAEC examination in a real
                                         exam-like environment. The application simulates the CBT experience, allowing students
@@ -64,10 +64,10 @@ function Quizapp() {
                                         A built-in automatic scoring system evaluates answers instantly and provides results
                                         at the end of each session. Students can review their performance, identify weak areas,
                                         and improve through repeated practice.<br /><br />
-                                    </p>
+                                    </div>
                                     <img src={waec3} alt='ideaimages' className='ideaimages' />
 
-                                    <p>
+                                    <div className='projectsContent'>
                                         The application features a clean, distraction-free interface optimized for focus
                                         and usability. It ensures smooth navigation between questions, supports answer
                                         selection and changes, and maintains progress throughout the test session.<br /><br />
@@ -79,11 +79,11 @@ function Quizapp() {
                                         Overall, the WAEC CBT Quiz Application delivers a realistic, user-friendly exam
                                         preparation experience, combining functionality, accuracy, and performance to support
                                         student success.<br /><br />
-                                    </p>
+                                    </div>
 
                                     <img src={waec1} alt='ideaimages' className='ideaimages' id='mobile' />
 
-                                    <p>
+                                    <div className='projectsContent'>
                                         Key Features<br /><br />
 
                                         ☆ CBT-style exam interface similar to WAEC exams<br />
@@ -115,7 +115,7 @@ function Quizapp() {
                                         ☆ UI/UX: Focused, minimal design optimized for exam simulation<br />
 
                                         ☆ Deployment: Cloud hosting for easy access and reliability<br />
-                                    </p>
+                                    </div>
                                     <div className='facticons'>
                                         <Link to='' ><div className='conicons'></div> </Link>
                                         <Link to=''><button className='coniconsbutton'>live website</button></Link>

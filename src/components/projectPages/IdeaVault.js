@@ -19,22 +19,22 @@ function IdeaVault() {
     return (
         <div>
             <div className='mainContainer'>
-                 <div className='sideContent'>
-                                    <img src={richi} alt='portfolioImage' className='portfolioImage' />
-                                    <div className='homecontent'>
-                                        <div id='name'>Raymond Iwobi</div>
-                                        <div id='brief'>I design and build full-stack applications that
-                                            solve real problems and deliver great user experiences.
-                                        </div>
-                                        <div id='icons'>
-                                            <Link to='https://portfolio-zeta-one-if72k9ugz5.vercel.app/'><img src={world} alt='portfolio' /></Link>
-                                            <Link to='https://github.com/rayiwobi'><img src={github} alt='github' /></Link>
-                                            <Link to='https://www.linkedin.com/in/raymond-iwobi-843785157/'><img src={linkedin} alt='linkedin' /></Link>
-                                            <Link to='mailto:rayicon@gmail.com'><img src={email} alt='email' /></Link>
-                                        </div>
-                                    </div>
-                
-                                </div>
+                <div className='sideContent'>
+                    <img src={richi} alt='portfolioImage' className='portfolioImage' />
+                    <div className='homecontent'>
+                        <div id='name'>Raymond Iwobi</div>
+                        <div id='brief'>I design and build full-stack applications that
+                            solve real problems and deliver great user experiences.
+                        </div>
+                        <div id='icons'>
+                            <Link to='https://portfolio-zeta-one-if72k9ugz5.vercel.app/'><img src={world} alt='portfolio' /></Link>
+                            <Link to='https://github.com/rayiwobi'><img src={github} alt='github' /></Link>
+                            <Link to='https://www.linkedin.com/in/raymond-iwobi-843785157/'><img src={linkedin} alt='linkedin' /></Link>
+                            <Link to='mailto:rayicon@gmail.com'><img src={email} alt='email' /></Link>
+                        </div>
+                    </div>
+
+                </div>
                 <div className='maincontent'>
                     <button onClick={handleclick} id='backbtn'></button>
                     <div className='maincontent-inner'>
@@ -43,14 +43,14 @@ function IdeaVault() {
 
                                 <div className='projectpages'>
                                     <h1>ideaVault – Creative Idea Management & Collaboration Platform </h1>
-                                    
+
                                     <div className='thelinknavigation'>
-                                        <img src={handpointing} alt='livewebsite'/>
+                                        <img src={handpointing} alt='livewebsite' />
                                         <Link to=''>Live website</Link>
                                     </div>
 
                                     <img src={idea3} alt='ideaimages' className='ideaimages' />
-                                    <p>
+                                    <div className='projectsContent'>
                                         IdeaVault is a full-featured creative platform designed to
                                         help individuals and teams capture, refine, and grow their
                                         ideas from initial sparks into structured, actionable concepts.
@@ -67,10 +67,10 @@ function IdeaVault() {
                                         users transform rough concepts into clear, well-defined plans. Whether
                                         refining a startup concept, shaping written content, or improving creative
                                         projects, IdeaVault supports structured thinking and iteration.<br /><br />
-                                    </p>
+                                    </div>
                                     <img src={idea2} alt='ideaimages' className='ideaimages' />
 
-                                    <p>
+                                    <div className='projectsContent'>
                                         IdeaVault also includes an Idea Generator that produces fresh ideas across
                                         different categories, helping users overcome creative blocks and explore new
                                         directions when inspiration runs low.<br /><br />
@@ -83,11 +83,11 @@ function IdeaVault() {
                                         members in real time, exchange feedback, and collaborate on ideas. Real-time
                                         communication creates a sense of community and enables instant discussion and idea
                                         sharing.<br /><br />
-                                    </p>
+                                    </div>
 
                                     <img src={idea1} alt='ideaimages' className='ideaimages' />
 
-                                    <p>
+                                    <div className='projectsContent'>
                                         Additional features include:<br /><br />
 
                                         ☆ Secure idea storage with easy organization and retrieval<br />
@@ -98,7 +98,7 @@ function IdeaVault() {
 
                                         ☆ Clean, intuitive UI focused on creative workflows<br /><br />
 
-                                         Tools & Technologies Used<br /><br />
+                                        Tools & Technologies Used<br /><br />
 
                                         ☆ Frontend: React.js for building a dynamic, component-based user interface<br />
 
@@ -118,12 +118,12 @@ function IdeaVault() {
 
                                         ☆ Security: Protected routes and server-side validation to ensure data integrity<br /><br />
 
-                                        IdeaVault is more than just an idea notebook—it’s a creative ecosystem that combines 
-                                        idea generation, refinement, storage, and real-time collaboration, empowering users to 
+                                        IdeaVault is more than just an idea notebook—it’s a creative ecosystem that combines
+                                        idea generation, refinement, storage, and real-time collaboration, empowering users to
                                         turn inspiration into meaningful outcomes.
-                                    </p>
+                                    </div>
                                     <div className='facticons'>
-                                         <Link to='' ><div className='conicons'></div> </Link>
+                                        <Link to='' ><div className='conicons'></div> </Link>
                                         <Link to=''><button className='coniconsbutton'>live website</button></Link>
                                     </div>
                                 </div>

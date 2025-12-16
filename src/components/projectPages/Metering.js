@@ -47,12 +47,12 @@ function IdeaVault() {
                                     <div className='thelinknavigation'>
                                         <img src={handpointing} alt='livewebsite' />
                                         <Link to='https://metering-website-azure.vercel.app/'>
-                                        Live website
+                                            Live website
                                         </Link>
                                     </div>
 
                                     <img src={meter3} alt='ideaimages' className='ideaimages' />
-                                    <p>
+                                    <div className='projectsContent'>
                                         The Metering Website is a web-based platform designed to manage, display,
                                         and monitor metering and instrumentation data in a clear and structured way.
                                         The application focuses on presenting complex technical information in an accessible
@@ -67,10 +67,10 @@ function IdeaVault() {
                                         data into a user-friendly experience. By combining structured data storage with a clean
                                         interface, the system ensures that critical information is both understandable and
                                         actionable.<br /><br />
-                                    </p>
+                                    </div>
                                     <img src={meter2} alt='ideaimages' className='ideaimages' />
 
-                                    <p>
+                                    <div className='projectsContent'>
                                         Designed with scalability in mind, the Metering Website can be extended to support
                                         additional meters, data sources, and monitoring features, making it suitable for
                                         eal-world industrial and utility use cases.<br /><br />
@@ -78,11 +78,11 @@ function IdeaVault() {
                                         Overall, this project demonstrates the ability to build data-driven technical platforms,
                                         handle structured datasets, and present engineering-focused information effectively on
                                         the web.<br /><br />
-                                    </p>
+                                    </div>
 
                                     <img src={meter1} alt='ideaimages' className='ideaimages' />
 
-                                    <p>
+                                    <div className='projectsContent'>
                                         Key Features<br /><br />
 
                                         ☆ Display and manage metering and instrumentation data<br />
@@ -109,17 +109,17 @@ function IdeaVault() {
 
                                         ☆ State Management: React Hooks for managing UI state<br />
 
-                                       ☆  UI/UX: Clean, technical layout optimized for data presentation<br />
+                                        ☆  UI/UX: Clean, technical layout optimized for data presentation<br />
 
                                         ☆ Deployment: Cloud hosting for reliability and scalability<br />
-                                    </p>
+                                    </div>
                                     <div className='facticons'>
-                                         <Link to='https://github.com/RayIwobi/Wave-Access__fullstack-project'>
-                                         <div className='conicons'></div> 
-                                         </Link>
+                                        <Link to='https://github.com/RayIwobi/Wave-Access__fullstack-project'>
+                                            <div className='conicons'></div>
+                                        </Link>
 
                                         <Link to='https://metering-website-azure.vercel.app/'>
-                                        <button className='coniconsbutton'>live website</button>
+                                            <button className='coniconsbutton'>live website</button>
                                         </Link>
                                     </div>
                                 </div>

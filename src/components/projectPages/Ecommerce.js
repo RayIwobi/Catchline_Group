@@ -50,7 +50,7 @@ function Ecommerce() {
                                     </div>
 
                                     <img src={eco1} alt='ideaimages' className='ideaimages' />
-                                    <p>
+                                        <div className='projectsContent'>
                                         NediFoods is a full-stack e-commerce platform built to deliver a
                                         smooth, secure, and scalable online shopping experience for food
                                         products. The application was designed to handle the complete customer
@@ -65,10 +65,10 @@ function Ecommerce() {
                                         complete purchases using a streamlined checkout flow. Payments are processed
                                         through a third-party payment gateway, with the backend verifying transactions
                                         and handling post-payment logic to ensure accuracy and reliability.<br /><br />
-                                    </p>
+                                    </div>
                                     <img src={eco3} alt='ideaimages' className='ideaimages' />
 
-                                    <p>
+                                        <div className='projectsContent'>
                                         On the backend, NediFoods includes robust product and order management, allowing
                                         administrators to create, update, and manage products efficiently. Orders are securely
                                         stored in the database after successful payments, making them accessible for tracking,
@@ -81,11 +81,11 @@ function Ecommerce() {
                                         The system also supports automated email notifications, sending order confirmations and
                                         alerts after successful purchases. This improves transparency and enhances trust between
                                         the business and customers.<br /><br />
-                                    </p>
+                                    </div>
 
                                     <img src={eco2} alt='ideaimages' className='ideaimages' />
 
-                                    <p>
+                                        <div className='projectsContent'>
                                         Overall, NediFoods demonstrates a real-world e-commerce solution built with scalability, 
                                         security, and user experience in mind, showcasing a complete end-to-end commerce workflow 
                                         from frontend to backend.<br/><br/>
@@ -129,7 +129,7 @@ function Ecommerce() {
                                         ☆ Security: Protected routes, server-side validation, and secure cookies<br/>
 
                                         ☆ Deployment: Cloud hosting for frontend and backend services<br/>
-                                    </p>
+                                    </div>
                                     <div className='facticons'>
                                          <Link to='' ><div className='conicons'></div> </Link>
                                         <Link to=''><button className='coniconsbutton'>live website</button></Link>

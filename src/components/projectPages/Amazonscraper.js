@@ -51,7 +51,7 @@ function IdeaVault() {
 
                                     <img src={scraper} alt='ideaimages' className='ideaimages' />
                                     <div className='textIntro'>
-                                        <div>
+                                        <div className='projectsContent'>
                                                 The Amazon Web Scraper is a backend-focused automation tool built to extract
                                                 structured product data from Amazon product pages. The project demonstrates
                                                 practical experience in web scraping, data parsing, and automation while handling
@@ -68,16 +68,16 @@ function IdeaVault() {
                                         </div>
                                         <img src={scraper1} alt='ideaimages' className='ideaimages' />
 
-                                        <p>
+                                        <div className='projectsContent'>
                                             The project highlights an understanding of HTTP requests, DOM parsing, and
                                             anti-scraping considerations, while maintaining a clean and maintainable codebase.<br /><br />
 
                                             Overall, the Amazon Web Scraper showcases backend engineering skills, automation
-                                            logic, and real-world data handling techniques.<br /><br />
-                                        </p>
+                                            logic, and real-world data handling techniques.<br />
+                                        </div>
 
 
-                                        <p>
+                                        <div className='projectsContent'>
                                             Key Features<br /><br />
 
                                             ☆ Scrapes Amazon product pages for structured data<br />
@@ -107,8 +107,8 @@ function IdeaVault() {
                                             ☆ Error Handling: Try/catch and fallback selectors for resilience<br />
 
                                             ☆ Environment Management: dotenv for managing configuration<br />
-                                            <div>testing to see if white</div>
-                                        </p>
+                                            
+                                        </div>
                                     </div>
                                     <div className='facticons'>
                                         <Link to='https://github.com/rayiwobi/Amazon-Scraper-API_backend-project' ><div className='conicons'></div> </Link>

@@ -46,12 +46,12 @@ function IdeaVault() {
                                     <div className='thelinknavigation'>
                                         <img src={handpointing} alt='livewebsite' />
                                         <Link to='https://movieapp-y4hw.onrender.com/'>
-                                        Live website
+                                            Live website
                                         </Link>
                                     </div>
 
                                     <img src={movieplace} alt='ideaimages' className='ideaimages' />
-                                    <p>
+                                    <div className='projectsContent'>
                                         The Movie Info API is a backend-driven application designed to fetch, process,
                                         and serve detailed movie information from an external data source. The project
                                         focuses on building a reliable API that delivers structured, up-to-date movie
@@ -65,10 +65,10 @@ function IdeaVault() {
                                         This project demonstrates strong experience with API consumption, data normalization,
                                         and error handling, as well as building scalable backend endpoints that act as a
                                         middleware layer between external services and client applications.<br /><br />
-                                    </p>
+                                    </div>
                                     <img src={movie1} alt='ideaimages' className='ideaimages' />
 
-                                    <p>
+                                    <div className='projectsContent'>
                                         Overall, the Movie Info API highlights backend development skills, third-party API
                                         integration, and clean data handling practices.<br /><br />
 
@@ -104,14 +104,14 @@ function IdeaVault() {
 
                                         ☆ Error Handling: Centralized error handling and validation<br />
 
-                                    </p>
+                                    </div>
                                     <div className='facticons'>
                                         <Link to='https://github.com/RayIwobi/MovieApp' >
-                                        <div className='conicons'></div> 
+                                            <div className='conicons'></div>
                                         </Link>
 
                                         <Link to='https://movieapp-y4hw.onrender.com/'>
-                                        <button className='coniconsbutton'>live website</button>
+                                            <button className='coniconsbutton'>live website</button>
                                         </Link>
                                     </div>
 
