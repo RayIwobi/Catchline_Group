@@ -213,6 +213,9 @@ p{
         width: 250px;
         height: 450px;
     }
+    #backbtn{
+        display: none;
+    }
 }
 
 .facticons{
