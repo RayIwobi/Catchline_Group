@@ -3,15 +3,16 @@ import './sections.css'
 
 function About() {
   return (
-    <div className='aboutusContainer'>
+    <div className='homesectioncontainer'>
       <div>
         <div className='portfolio-title'>
           <div>MY JOURNEY</div>
           <div id='devcolor'>AS A DEVELOPER</div>
           <div className='longline'></div>
-          <div className='aboutme'>
-            <div className='sectionContent'>
-              My journey as a software developer is rooted in a strong foundation of real‑world IT 
+        </div>
+        <div className='textIntro'>
+          <p>
+            My journey as a software developer is rooted in a strong foundation of real‑world IT 
               experience and a continuous drive to evolve with technology. I began my professional 
               career as an IT Specialist, spending over seven years in the banking sector, 
               where I gained deep exposure to enterprise systems, infrastructure, security, and 
@@ -38,9 +39,7 @@ function About() {
               skills. I approach development not just as coding, but as crafting reliable solutions that meet 
               both technical and business goals. My journey continues to be driven by learning, building, and 
               delivering impactful software.
-
-            </div>
-          </div>
+            </p>
         </div>
       </div>
     </div>
