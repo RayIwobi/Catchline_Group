@@ -12,7 +12,7 @@ function Home() {
     return (
         <div>
             <div className='mainContainer'> 
-                <h3>My Portfolio</h3>
+                <div className='portfolioname'>My Portfolio</div>
                 <div className='sideContent'>
                         <img src={richi} alt='portfolioImage' className='portfolioImage' />
                     <div className='homecontent'>
