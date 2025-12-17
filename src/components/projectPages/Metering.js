@@ -9,6 +9,7 @@ import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 import email from "../assets/email.png"
 import handpointing from './assets/handpointing.png'
+import arrowleft from '../assets/arrowleft.png'
 
 function IdeaVault() {
     const navigate = useNavigate()
@@ -27,11 +28,14 @@ function IdeaVault() {
                         <div id='brief'>I design and build full-stack applications that
                             solve real problems and deliver great user experiences.
                         </div>
+                        <div className='antonclu'>
                         <div id='icons'>
                             <Link to='https://portfolio-zeta-one-if72k9ugz5.vercel.app/'><img src={world} alt='portfolio' /></Link>
                             <Link to='https://github.com/rayiwobi'><img src={github} alt='github' /></Link>
                             <Link to='https://www.linkedin.com/in/raymond-iwobi-843785157/'><img src={linkedin} alt='linkedin' /></Link>
                             <Link to='mailto:rayicon@gmail.com'><img src={email} alt='email' /></Link>
+                        </div>
+                            <img src={arrowleft} alt='arrow' onClick={handleclick} className='arrowleft'/>
                         </div>
                     </div>
 

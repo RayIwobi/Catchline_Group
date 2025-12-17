@@ -8,16 +8,17 @@ body {
     display: flex;
 }
 
-.portfolioname{
-    position:fixed;
+.portfolioname {
+    position: fixed;
     color: white;
     margin-top: 15px;
     margin-left: 20px;
     font-weight: bold;
 }
-@media screen and (max-width:600px){
-    .portfolioname{
-        position:absolute;
+
+@media screen and (max-width:600px) {
+    .portfolioname {
+        position: absolute;
     }
 }
 
@@ -34,6 +35,7 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
 .sideContent1 {
     width: 32%;
     background-color: rgb(226, 218, 218);
@@ -46,15 +48,17 @@ body {
     flex-direction: column;
 }
 
-@media screen and (max-width:600px){
-    .mainContainer{
+@media screen and (max-width:600px) {
+    .mainContainer {
         width: 100%;
         overflow-x: hidden;
     }
-    .sideContent{
+
+    .sideContent {
         width: 100%;
     }
-    .sideContent1{
+
+    .sideContent1 {
         width: 100%;
         padding-top: -40px;
         padding-bottom: -10px;
@@ -90,17 +94,19 @@ body {
     margin-top: 70px;
     font-size: 18px;
 }
-.maincontent-inner{
+
+.maincontent-inner {
     padding: 60px;
 }
 
-@media screen and (max-width:600px){
-    .maincontent{
+@media screen and (max-width:600px) {
+    .maincontent {
         width: 90%;
         color: white;
         margin-top: -30px;
     }
-    .maincontent-inner{
+
+    .maincontent-inner {
         width: 90%;
         color: white;
         /* padding: 5px */
@@ -124,17 +130,24 @@ body {
     width: 90%;
 }
 
-.antonclu{
+.antonclu {
     display: flex;
 }
 
-.arrowleft{
-    width: 40px;
-    height: 40px;
-    margin-left: 50px;
+.arrowleft {
+    display: none;
 }
 
-#icons{
+@media screen and (max-width:600px) {
+    .arrowleft {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin-left: 50px;
+    }
+}
+
+#icons {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -142,13 +155,13 @@ body {
     margin-top: 15px;
 }
 
-#icons img{
+#icons img {
     width: 25px;
     height: 20px;
     transition: ease-in-out 0.3s;
 }
 
-#icons img:hover{
+#icons img:hover {
     transform: scale(1.2);
 }
 
@@ -191,22 +204,23 @@ body {
 }
 
 
-.ideaimages{
+.ideaimages {
     width: 100%;
     height: auto;
 }
 
-.projectpages p{
+.projectpages p {
     font-size: 18px;
     line-height: 1.5;
     font-weight: 100;
     font-family: 'Nunito', sans-serif;
 }
-p{
+
+p {
     font-size: 18px;
 }
 
-.worldimg{
+.worldimg {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -214,42 +228,42 @@ p{
 }
 
 #backbtn {
-    margin-top: -30px;
-    width: 150px;
-    height: 35px;
+    margin-top: -20px;
+    width: 60px;
+    height: 60px;
     margin-bottom: 20px;
     margin-left: 55px;
-    background-image: url('../components/projectPages/assets/backbtn.png');
+    background-image: url('../components/assets/arrowleft.png');
     background-size: cover;
     transition: background-image 0.3s ease;
     border: none;
-    border-radius: 25px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
-#backbtn:hover{
-    background-image: url('../components/projectPages/assets/blackbtn.png')
+#backbtn:hover {
+    background-image: url('../components/assets/sarrow.png')
 }
 
-.thelinknavigation{
+.thelinknavigation {
     display: flex;
     align-items: center;
     justify-content: right;
     margin-bottom: 10px;
 }
 
-.thelinknavigation a{
+.thelinknavigation a {
     text-decoration: none;
     color: white;
 }
 
-.thelinknavigation img{
+.thelinknavigation img {
     width: 50px;
     height: 30px;
     margin-right: 5px;
 }
 
-#mobile{
+#mobile {
     width: 350px;
     height: 650px;
     display: flex;
@@ -258,25 +272,28 @@ p{
     margin-right: auto;
 }
 
-@media screen and (max-width:600px){
-    #mobile{
+@media screen and (max-width:600px) {
+    #mobile {
         width: 250px;
         height: 450px;
     }
-    #backbtn{
+
+    #backbtn {
         display: none;
     }
-    .projectpages h1{
+
+    .projectpages h1 {
         font-size: 25px;
     }
-   
+
 }
 
-.facticons{
+.facticons {
     display: flex;
     align-items: center;
 }
-.conicons{
+
+.conicons {
     width: 50px;
     height: 50px;
     background-image: url('./projectPages//assets//code.png');
@@ -284,13 +301,13 @@ p{
     cursor: pointer;
 }
 
-.conicons:hover{
+.conicons:hover {
     background-image: url('./projectPages/assets/code2.png');
     width: 50px;
     height: 50px;
 }
 
-.coniconsbutton{
+.coniconsbutton {
     width: 200px;
     height: 45px;
     color: white;
@@ -304,12 +321,12 @@ p{
     box-shadow: black 0px 1px 1px 1px;
 }
 
-.coniconsbutton:hover{
-        background: linear-gradient(90deg, brown, blue);
+.coniconsbutton:hover {
+    background: linear-gradient(90deg, brown, blue);
 
 }
 
-.projectsContent{
+.projectsContent {
     margin-top: 20px;
     line-height: 1.5;
     margin-bottom: 20px;
