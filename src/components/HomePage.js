@@ -8,7 +8,7 @@ import Contact from "./sections/Contact";
 import './sections/sections.css'
 
 import { useEffect } from "react";
-// import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 
 export default function HomePage({ setActive }) {
   useEffect(() => {
@@ -35,7 +35,7 @@ export default function HomePage({ setActive }) {
 
   return (
     <>
-    {/* <Navbar/> */}
+    <Navbar/>
       <section id="home" >
         <HomeSection />
       </section>

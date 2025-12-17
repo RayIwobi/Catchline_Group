@@ -12,8 +12,9 @@ export default function Navbar() {
   };
 
   return (
+    <div>
     <nav className="navbar">
-      <ul>
+      <ul >
         <li
           // className={active === "home" ? "active" : ""}
           onClick={() => handleScroll("home")}
@@ -42,12 +43,12 @@ export default function Navbar() {
           Experience
         </li>
 
-        <li
+        {/* <li
           className={active === "tools" ? "active" : ""}
           onClick={() => handleScroll("tools")}
         >
           Tools
-        </li>
+        </li> */}
 
         <li
           className={active === "contact" ? "active" : ""}
@@ -57,6 +58,7 @@ export default function Navbar() {
         </li>
       </ul>
     </nav>
+    </div>
   );
 }
 

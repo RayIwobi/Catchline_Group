@@ -8,10 +8,29 @@ body {
     display: flex;
 }
 
+.mainContainer h3{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: fixed;
+}
+
 
 .sideContent {
     width: 32%;
     background-color: white;
+    height: calc(100vh - 50px);
+    position: fixed;
+    margin-top: 50px;
+    border-radius: 0 40px 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sideContent1 {
+    width: 32%;
+    background-color: rgb(226, 218, 218);
     height: calc(100vh - 50px);
     position: fixed;
     margin-top: 50px;

@@ -11,12 +11,14 @@ import Quizapp from "./components/projectPages/Quizapp";
 import Yarnix from "./components/projectPages/Yarnix";
 import Movieapp from "./components/projectPages/Movieapp";
 import ScrollToTop from './ScrollToTop'
+import ScrollUpButton from "./ScrollUpButton";
 
 function App() {
 
   return (
     <Router>
       <ScrollToTop/>
+      <ScrollUpButton/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path='ideavault' element={<IdeaVault />} />

@@ -6,8 +6,20 @@
   background-color: #456882;
   color: white;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-
+@media screen and (max-width:800px){
+  .navbar{
+    display: none;
+  }
+}
+@media screen and (max-width:600px){
+  .navbar{
+    display: none;
+  }
+}
 
 nav ul {
   list-style: none;
@@ -20,6 +32,7 @@ nav ul {
 li:hover{
   color:red
 }
+
 
 /* nav li.active {
   color: #ff5733;
