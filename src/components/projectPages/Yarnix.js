@@ -20,7 +20,7 @@ function Yarnix() {
         <div>
             <div className='mainContainer'>
                 <div className='portfolioname'>My Portfolio</div>
-                <div className='sideContent'>
+                <div className='sideContent1'>
                     <img src={richi} alt='portfolioImage' className='portfolioImage' />
                     <div className='homecontent'>
                         <div id='name'>Raymond Iwobi</div>
