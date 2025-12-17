@@ -35,6 +35,10 @@ p{
     color: white;
 }
 
+p:hover{
+    color: white;
+}
+
 .longline{
     width: 200px;
     height: 6px;
@@ -241,6 +245,12 @@ p{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+@media screen and (max-width:600px){
+    .inputsec{
+        padding-right: 5px;
+    }
+}
+
 label{
     font-size: 20px;
 }

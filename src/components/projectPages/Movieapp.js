@@ -118,10 +118,12 @@ function IdeaVault() {
                                         <Link to='https://movieapp-y4hw.onrender.com/'>
                                             <button className='coniconsbutton'>live website</button>
                                         </Link>
-                                    </div>
+                                    </div><br/>
 
                                 </div>
-
+                                <div id='registry' >
+                                    <h6>Built by Raymond Iwobi | Powered by React</h6>
+                                </div>
                             </div>
                         </div>
                     </div>

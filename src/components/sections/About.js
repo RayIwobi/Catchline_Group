@@ -25,8 +25,9 @@ function About() {
               with business and compliance needs.<br/><br/>
 
               In 2016, I transitioned into web development, driven by a desire to build 
-              user‑facing solutions rather than only manage systems. I started with HTML, CSS, and 
-              Adobe ActionScript, and soon began building dynamic websites and applications using 
+              user‑facing solutions rather than only manage systems. I started with HTML, CSS, 
+              Adobe ActionScript, Python, Django and database technologies like MySql, Sqlite, PostgreSQL 
+              and soon began building dynamic websites and applications using 
               WordPress, delivering visually appealing and functional solutions for real‑world use 
               cases.<br/><br/>
 

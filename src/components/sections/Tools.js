@@ -27,8 +27,8 @@ function Tools() {
         <div className='toolscontainer'>
             <div>
                 <div className='portfolio-title'>
-                    <div>TOOLS THAT</div>
-                    <div id='devcolor'>I USE</div>
+                    <div>TOOLS </div>
+                    <div id='devcolor'>THAT I USE</div>
                     <div className='longline'></div>
                 </div>
                 <div className='toolsicon'>

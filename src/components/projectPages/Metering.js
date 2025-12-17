@@ -126,9 +126,11 @@ function IdeaVault() {
                                         <Link to='https://metering-website-azure.vercel.app/'>
                                             <button className='coniconsbutton'>live website</button>
                                         </Link>
-                                    </div>
+                                    </div><br/>
                                 </div>
-
+                                <div id='registry' >
+                                    <h6>Built by Raymond Iwobi | Powered by React</h6>
+                                </div>
                             </div>
                         </div>
                     </div>

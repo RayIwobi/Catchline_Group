@@ -130,9 +130,11 @@ function IdeaVault() {
                                     <div className='facticons'>
                                         <Link to='' ><div className='conicons'></div> </Link>
                                         <Link to=''><button className='coniconsbutton'>live website</button></Link>
-                                    </div>
+                                    </div><br/>
                                 </div>
-
+                                <div id='registry' >
+                                    <h6>Built by Raymond Iwobi | Powered by React</h6>
+                                </div>
                             </div>
                         </div>
                     </div>

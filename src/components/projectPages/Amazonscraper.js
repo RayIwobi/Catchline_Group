@@ -28,13 +28,13 @@ function IdeaVault() {
                             solve real problems and deliver great user experiences.
                         </div>
                         <div className='antonclu'>
-                        <div id='icons'>
-                            <Link to='https://portfolio-zeta-one-if72k9ugz5.vercel.app/'><img src={world} alt='portfolio' /></Link>
-                            <Link to='https://github.com/rayiwobi'><img src={github} alt='github' /></Link>
-                            <Link to='https://www.linkedin.com/in/raymond-iwobi-843785157/'><img src={linkedin} alt='linkedin' /></Link>
-                            <Link to='mailto:rayicon@gmail.com'><img src={email} alt='email' /></Link>
-                        </div>
-                            <img src={arrowleft} alt='arrow' onClick={handleclick} className='arrowleft'/>
+                            <div id='icons'>
+                                <Link to='https://portfolio-zeta-one-if72k9ugz5.vercel.app/'><img src={world} alt='portfolio' /></Link>
+                                <Link to='https://github.com/rayiwobi'><img src={github} alt='github' /></Link>
+                                <Link to='https://www.linkedin.com/in/raymond-iwobi-843785157/'><img src={linkedin} alt='linkedin' /></Link>
+                                <Link to='mailto:rayicon@gmail.com'><img src={email} alt='email' /></Link>
+                            </div>
+                            <img src={arrowleft} alt='arrow' onClick={handleclick} className='arrowleft' />
                         </div>
                     </div>
 
@@ -117,9 +117,11 @@ function IdeaVault() {
                                     <div className='facticons'>
                                         <Link to='https://github.com/rayiwobi/Amazon-Scraper-API_backend-project' ><div className='conicons'></div> </Link>
                                         <Link to='https://amazon-scrapert.vercel.app/'><button className='coniconsbutton'>live website</button></Link>
-                                    </div>
+                                    </div><br/>
                                 </div>
-
+                                <div id='registry' >
+                                    <h6>Built by Raymond Iwobi | Powered by React</h6>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -53,7 +53,7 @@ function Experience() {
                                     <li>Deployed applications to Netlify, Vercel, and Render, managing environment variables, build pipelines, and custom domain configurations.</li>
                                     <li>Integrated third-party services such as Google Maps API, Cloudinary (for media management), and location-based search filters to enhance user experience.</li>
                                 </p>
-                                <div>May 2023 – Dec 2023</div>
+                                <div>May 2023 – Dec 2023</div> 
                             </div>
                         </div>
                     </div>
