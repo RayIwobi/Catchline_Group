@@ -17,7 +17,8 @@ function IdeaVault() {
     return (
         <div>
             <div className='mainContainer'>
-                <div className='sideContent1'>
+                <div className='portfolioname'>My Portfolio</div>
+                <div className='sideContent'>
                     <img src={richi} alt='portfolioImage' className='portfolioImage' />
                     <div className='homecontent'>
                         <div id='name'>Raymond Iwobi</div>
@@ -48,7 +49,7 @@ function IdeaVault() {
                                     </div>
 
                                     <img src={authenticate} alt='ideaimages' className='ideaimages' />
-                                        <div className='projectsContent'>
+                                    <div className='projectsContent'>
                                         The Authentication & Login System is a robust user access management solution
                                         built to securely handle user registration, login, session management, and
                                         protected access across a full-stack application. The system focuses on security,
@@ -64,12 +65,12 @@ function IdeaVault() {
                                         managed efficiently to prevent unauthorized access and token misuse.<br />
                                     </div>
 
-                                        <div className='projectsContent'>
-                                        Security best practices are implemented throughout the system, including password 
-                                        hashing, secure token storage, and server-side validation, making the authentication 
+                                    <div className='projectsContent'>
+                                        Security best practices are implemented throughout the system, including password
+                                        hashing, secure token storage, and server-side validation, making the authentication
                                         flow production-ready.<br /><br />
 
-                                        Overall, this project demonstrates a strong understanding of authentication architecture, 
+                                        Overall, this project demonstrates a strong understanding of authentication architecture,
                                         secure session handling, and full-stack access control.<br /><br />
 
                                         Key Features<br /><br />
@@ -109,11 +110,11 @@ function IdeaVault() {
                                         ☆ Environment Management: dotenv for managing secrets<br />
                                     </div>
                                     <div className='facticons'>
-                                         <Link to='https://github.com/RayIwobi/Authentication-App_fullstack-project' >
-                                         <div className='conicons'></div> 
-                                         </Link>
+                                        <Link to='https://github.com/RayIwobi/Authentication-App_fullstack-project' >
+                                            <div className='conicons'></div>
+                                        </Link>
                                         <Link to='https://authenticate-taupe.vercel.app/'>
-                                        <button className='coniconsbutton'>live website</button>
+                                            <button className='coniconsbutton'>live website</button>
                                         </Link>
                                     </div>
                                 </div>

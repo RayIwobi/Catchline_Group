@@ -18,7 +18,8 @@ function IdeaVault() {
     return (
         <div>
             <div className='mainContainer'>
-                <div className='sideContent1'>
+                <div className='portfolioname'>My Portfolio</div>
+                <div className='sideContent'>
                     <img src={richi} alt='portfolioImage' className='portfolioImage' />
                     <div className='homecontent'>
                         <div id='name'>Raymond Iwobi</div>
@@ -51,19 +52,19 @@ function IdeaVault() {
                                     <img src={scraper} alt='ideaimages' className='ideaimages' />
                                     <div className='textIntro'>
                                         <div className='projectsContent'>
-                                                The Amazon Web Scraper is a backend-focused automation tool built to extract
-                                                structured product data from Amazon product pages. The project demonstrates
-                                                practical experience in web scraping, data parsing, and automation while handling
-                                                real-world challenges such as dynamic content and data consistency.<br /><br />
+                                            The Amazon Web Scraper is a backend-focused automation tool built to extract
+                                            structured product data from Amazon product pages. The project demonstrates
+                                            practical experience in web scraping, data parsing, and automation while handling
+                                            real-world challenges such as dynamic content and data consistency.<br /><br />
 
-                                                The scraper is designed to collect key product information including product
-                                                titles, prices, ratings, availability status, and images, transforming unstructured
-                                                web content into clean, usable data. This makes it useful for price tracking,
-                                                market research, competitor analysis, and data-driven decision-making.<br /><br />
+                                            The scraper is designed to collect key product information including product
+                                            titles, prices, ratings, availability status, and images, transforming unstructured
+                                            web content into clean, usable data. This makes it useful for price tracking,
+                                            market research, competitor analysis, and data-driven decision-making.<br /><br />
 
-                                                The application processes scraped data and outputs it in a structured format
-                                                that can be stored, analyzed, or integrated into other systems. Emphasis was
-                                                placed on reliability, efficiency, and accuracy during data extraction.<br /><br />
+                                            The application processes scraped data and outputs it in a structured format
+                                            that can be stored, analyzed, or integrated into other systems. Emphasis was
+                                            placed on reliability, efficiency, and accuracy during data extraction.<br /><br />
                                         </div>
                                         <img src={scraper1} alt='ideaimages' className='ideaimages' />
 
@@ -106,7 +107,7 @@ function IdeaVault() {
                                             ☆ Error Handling: Try/catch and fallback selectors for resilience<br />
 
                                             ☆ Environment Management: dotenv for managing configuration<br />
-                                            
+
                                         </div>
                                     </div>
                                     <div className='facticons'>

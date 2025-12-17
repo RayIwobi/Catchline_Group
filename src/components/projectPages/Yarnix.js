@@ -8,6 +8,7 @@ import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 import email from "../assets/email.png"
 import handpointing from './assets/handpointing.png'
+import arrowleft from '../assets/arrowleft.png'
 
 function Yarnix() {
     const navigate = useNavigate()
@@ -19,18 +20,21 @@ function Yarnix() {
         <div>
             <div className='mainContainer'>
                 <div className='portfolioname'>My Portfolio</div>
-                <div className='sideContent1'>
+                <div className='sideContent'>
                     <img src={richi} alt='portfolioImage' className='portfolioImage' />
                     <div className='homecontent'>
                         <div id='name'>Raymond Iwobi</div>
                         <div id='brief'>I design and build full-stack applications that
                             solve real problems and deliver great user experiences.
                         </div>
+                        <div className='antonclu'>
                         <div id='icons'>
                             <Link to='https://portfolio-zeta-one-if72k9ugz5.vercel.app/'><img src={world} alt='portfolio' /></Link>
                             <Link to='https://github.com/rayiwobi'><img src={github} alt='github' /></Link>
                             <Link to='https://www.linkedin.com/in/raymond-iwobi-843785157/'><img src={linkedin} alt='linkedin' /></Link>
                             <Link to='mailto:rayicon@gmail.com'><img src={email} alt='email' /></Link>
+                        </div>
+                            <img src={arrowleft} alt='arrow' onClick={handleclick} className='arrowleft'/>
                         </div>
                     </div>
 
@@ -50,7 +54,7 @@ function Yarnix() {
                                     </div>
 
                                     <img src={yar1} alt='ideaimages' className='ideaimages' />
-                                        <div className='projectsContent'>
+                                    <div className='projectsContent'>
                                         Yarnix is a full-stack social media application built to connect users through
                                         posts, interactions, and real-time engagement. Inspired by modern social
                                         networking platforms, Yarnix focuses on creating a familiar yet streamlined
@@ -68,7 +72,7 @@ function Yarnix() {
                                     </div>
                                     <img src={yar2} alt='ideaimages' className='ideaimages' />
 
-                                        <div className='projectsContent'>
+                                    <div className='projectsContent'>
                                         A personalized feed system displays posts from users across the platform, enabling
                                         content discovery and continuous engagement. Users can explore, react, and participate
                                         in conversations naturally, similar to mainstream social media platforms.<br /><br />
@@ -80,9 +84,9 @@ function Yarnix() {
 
 
 
-                                        <div className='projectsContent'>
-                                        Overall, Yarnix demonstrates a scalable social media architecture, combining real-time 
-                                        interaction, user-generated content, and secure authentication into a cohesive, modern 
+                                    <div className='projectsContent'>
+                                        Overall, Yarnix demonstrates a scalable social media architecture, combining real-time
+                                        interaction, user-generated content, and secure authentication into a cohesive, modern
                                         platform.<br /><br />
 
                                         Key Features<br /><br />
@@ -124,7 +128,7 @@ function Yarnix() {
                                         ☆ Deployment: Cloud-based hosting for scalability<br />
                                     </div>
                                     <div className='facticons'>
-                                         <Link to='' ><div className='conicons'></div> </Link>
+                                        <Link to='' ><div className='conicons'></div> </Link>
                                         <Link to=''><button className='coniconsbutton'>live website</button></Link>
                                     </div>
                                 </div>

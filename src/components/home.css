@@ -123,6 +123,16 @@ body {
     font-size: 19px;
 }
 
+.antonclu{
+    display: flex;
+}
+
+.arrowleft{
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+}
+
 #icons{
     display: flex;
     align-items: center;

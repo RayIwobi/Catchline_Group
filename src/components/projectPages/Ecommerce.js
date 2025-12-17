@@ -19,7 +19,8 @@ function Ecommerce() {
     return (
         <div>
             <div className='mainContainer'>
-                <div className='sideContent1'>
+                <div className='portfolioname'>My Portfolio</div>
+                <div className='sideContent'>
                     <img src={richi} alt='portfolioImage' className='portfolioImage' />
                     <div className='homecontent'>
                         <div id='name'>Raymond Iwobi</div>
@@ -50,7 +51,7 @@ function Ecommerce() {
                                     </div>
 
                                     <img src={eco1} alt='ideaimages' className='ideaimages' />
-                                        <div className='projectsContent'>
+                                    <div className='projectsContent'>
                                         NediFoods is a full-stack e-commerce platform built to deliver a
                                         smooth, secure, and scalable online shopping experience for food
                                         products. The application was designed to handle the complete customer
@@ -68,7 +69,7 @@ function Ecommerce() {
                                     </div>
                                     <img src={eco3} alt='ideaimages' className='ideaimages' />
 
-                                        <div className='projectsContent'>
+                                    <div className='projectsContent'>
                                         On the backend, NediFoods includes robust product and order management, allowing
                                         administrators to create, update, and manage products efficiently. Orders are securely
                                         stored in the database after successful payments, making them accessible for tracking,
@@ -85,53 +86,53 @@ function Ecommerce() {
 
                                     <img src={eco2} alt='ideaimages' className='ideaimages' />
 
-                                        <div className='projectsContent'>
-                                        Overall, NediFoods demonstrates a real-world e-commerce solution built with scalability, 
-                                        security, and user experience in mind, showcasing a complete end-to-end commerce workflow 
-                                        from frontend to backend.<br/><br/>
+                                    <div className='projectsContent'>
+                                        Overall, NediFoods demonstrates a real-world e-commerce solution built with scalability,
+                                        security, and user experience in mind, showcasing a complete end-to-end commerce workflow
+                                        from frontend to backend.<br /><br />
 
-                                        Key Features<br/><br/>
+                                        Key Features<br /><br />
 
-                                        ☆ Product browsing with category-based navigation<br/>
+                                        ☆ Product browsing with category-based navigation<br />
 
-                                        ☆ Shopping cart with quantity and price calculations<br/>
+                                        ☆ Shopping cart with quantity and price calculations<br />
 
-                                        ☆ Secure checkout and payment processing<br/>
+                                        ☆ Secure checkout and payment processing<br />
 
-                                        ☆ Order creation and storage after successful payment<br/>
+                                        ☆ Order creation and storage after successful payment<br />
 
-                                        ☆ User authentication with protected routes<br/>
+                                        ☆ User authentication with protected routes<br />
 
-                                        ☆ Automated email notifications for orders<br/>
+                                        ☆ Automated email notifications for orders<br />
 
-                                        ☆ Admin product management system<br/>
+                                        ☆ Admin product management system<br />
 
-                                        ☆ Responsive design for mobile and desktop<br/><br/>
+                                        ☆ Responsive design for mobile and desktop<br /><br />
 
-                                        Tools & Technologies Used<br/><br/>
+                                        Tools & Technologies Used<br /><br />
 
-                                        ☆ Frontend: React.js for a dynamic and responsive UI<br/>
+                                        ☆ Frontend: React.js for a dynamic and responsive UI<br />
 
-                                        ☆ Backend: Node.js and Express.js for API handling and business logic<br/>
+                                        ☆ Backend: Node.js and Express.js for API handling and business logic<br />
 
-                                        ☆ Database: MongoDB for storing users, products, carts, and orders<br/>
+                                        ☆ Database: MongoDB for storing users, products, carts, and orders<br />
 
-                                        ☆ Payments: Stripe Checkout integration for secure online payments<br/>
+                                        ☆ Payments: Stripe Checkout integration for secure online payments<br />
 
-                                        ☆ Authentication: JWT stored in HTTP-only cookies<br/>
+                                        ☆ Authentication: JWT stored in HTTP-only cookies<br />
 
-                                        ☆ Email Services: Nodemailer with Mailtrap for email testing and delivery<br/>
+                                        ☆ Email Services: Nodemailer with Mailtrap for email testing and delivery<br />
 
-                                        ☆ State Management: React Hooks and Context API / Reducer pattern<br/>
+                                        ☆ State Management: React Hooks and Context API / Reducer pattern<br />
 
-                                        ☆ API Communication: RESTful APIs with Axios<br/>
+                                        ☆ API Communication: RESTful APIs with Axios<br />
 
-                                        ☆ Security: Protected routes, server-side validation, and secure cookies<br/>
+                                        ☆ Security: Protected routes, server-side validation, and secure cookies<br />
 
-                                        ☆ Deployment: Cloud hosting for frontend and backend services<br/>
+                                        ☆ Deployment: Cloud hosting for frontend and backend services<br />
                                     </div>
                                     <div className='facticons'>
-                                         <Link to='' ><div className='conicons'></div> </Link>
+                                        <Link to='' ><div className='conicons'></div> </Link>
                                         <Link to=''><button className='coniconsbutton'>live website</button></Link>
                                     </div>
                                 </div>
