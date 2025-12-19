@@ -128,8 +128,8 @@ function IdeaVault() {
                                         turn inspiration into meaningful outcomes.
                                     </div>
                                     <div className='facticons'>
-                                        <Link to='' ><div className='conicons'></div> </Link>
-                                        <Link to=''><button className='coniconsbutton'>live website</button></Link>
+                                        {/* <Link to='' ><div className='conicons'></div> </Link> */}
+                                        <Link to='https://idea-vault-seven.vercel.app/'><button className='coniconsbutton'>live website</button></Link>
                                     </div><br/>
                                 </div>
                                 <div id='registry' >
