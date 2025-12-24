@@ -1,5 +1,7 @@
 // App.js
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from './ScrollToTop';
+import ScrollUpButton from './ScrollUpButton';
 import Home from "./components/Home";
 
 function App() {
