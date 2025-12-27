@@ -8,6 +8,9 @@ import facebook from './assets/icons/facebook.png'
 import twitter from './assets/icons/twitter.png'
 import youtube from './assets/icons/youtube.png'
 import catchlogo from './assets/icons/catchlogo.png'
+import email from './assets/icons/email.png'
+import address from './assets/icons/location.png'
+import phone from './assets/icons/phone.png'
 import next1 from './assets/other_images/next1.jpg'
 import am1 from './assets/other_images/am1.jpg'
 import am2 from './assets/other_images/am2.jpg'
@@ -92,152 +95,173 @@ function Home() {
                             </p>
                             <button>Learn More</button>
                         </div>
-                        </div>
-                        {/* </div> */}
-
                     </div>
-                    <div className='nextsection'>
-                        <img src={next1} alt='nextsection' />
-                        <div className='nextsectiontext'>
-                            <h3>the heading</h3>
+                    {/* </div> */}
+
+                </div>
+                <div className='nextsection'>
+                    <img src={next1} alt='nextsection' />
+                    <div className='nextsectiontext'>
+                        <h3>the heading</h3>
+                        We provide market entry and investment advisory services for
+                        businesses and investors seeking new opportunities. Our
+                        expertise includes market research, feasibility studies,
+                        regulatory guidance, risk assessment, and partner identification.
+                    </div>
+
+                </div>
+                <div className='imagelinkdesign'>
+                    <div className='imagecard-container'>
+                        <div className='image-card'>
+                            <img src={am1} alt='frontline' />
+                            <div className='overlay'></div>
+
+                            <div className='text-box'>
+                                <h3>image title</h3>
+                                <p>
+                                    This is the content
+                                </p>
+                            </div>
+                        </div>
+                        <div className='image-card'>
+                            <img src={am2} alt='frontline' />
+                            <div className='overlay'></div>
+
+                            <div className='text-box'>
+                                <h3>image title</h3>
+                                <p>
+                                    This is the content
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='imagecard-container'>
+                        <div className='image-card'>
+                            <img src={am6} alt='frontline' />
+                            <div className='overlay'></div>
+
+                            <div className='text-box'>
+                                <h3>image title</h3>
+                                <p>
+                                    This is the content
+                                </p>
+                            </div>
+                        </div>
+                        <div className='image-card'>
+                            <img src={am4} alt='frontline' />
+                            <div className='overlay'></div>
+
+                            <div className='text-box'>
+                                <h3>image title</h3>
+                                <p>
+                                    This is the content
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='imagecard-container'>
+                        <div className='image-card'>
+                            <img src={am5} alt='frontline' />
+                            <div className='overlay'></div>
+
+                            <div className='text-box'>
+                                <h3>image title</h3>
+                                <p>
+                                    This is the content
+                                </p>
+                            </div>
+                        </div>
+                        <div className='image-card'>
+                            <img src={am8} alt='frontline' />
+                            <div className='overlay'></div>
+
+                            <div className='text-box'>
+                                <h3>image title</h3>
+                                <p>
+                                    This is the content
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='whweare'>
+                    <div className='whereinner'>
+                        <h3>Who we are</h3>
+                        <p>
                             We provide market entry and investment advisory services for
                             businesses and investors seeking new opportunities. Our
                             expertise includes market research, feasibility studies,
                             regulatory guidance, risk assessment, and partner identification.
-                        </div>
-
+                        </p>
                     </div>
-                    <div className='imagelinkdesign'>
-                        <div className='imagecard-container'>
-                            <div className='image-card'>
-                                <img src={am1} alt='frontline' />
-                                <div className='overlay'></div>
-
-                                <div className='text-box'>
-                                    <h3>image title</h3>
-                                    <p>
-                                        This is the content
-                                    </p>
-                                </div>
-                            </div>
-                            <div className='image-card'>
-                                <img src={am2} alt='frontline' />
-                                <div className='overlay'></div>
-
-                                <div className='text-box'>
-                                    <h3>image title</h3>
-                                    <p>
-                                        This is the content
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='imagecard-container'>
-                            <div className='image-card'>
-                                <img src={am6} alt='frontline' />
-                                <div className='overlay'></div>
-
-                                <div className='text-box'>
-                                    <h3>image title</h3>
-                                    <p>
-                                        This is the content
-                                    </p>
-                                </div>
-                            </div>
-                            <div className='image-card'>
-                                <img src={am4} alt='frontline' />
-                                <div className='overlay'></div>
-
-                                <div className='text-box'>
-                                    <h3>image title</h3>
-                                    <p>
-                                        This is the content
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='imagecard-container'>
-                            <div className='image-card'>
-                                <img src={am5} alt='frontline' />
-                                <div className='overlay'></div>
-
-                                <div className='text-box'>
-                                    <h3>image title</h3>
-                                    <p>
-                                        This is the content
-                                    </p>
-                                </div>
-                            </div>
-                            <div className='image-card'>
-                                <img src={am8} alt='frontline' />
-                                <div className='overlay'></div>
-
-                                <div className='text-box'>
-                                    <h3>image title</h3>
-                                    <p>
-                                        This is the content
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div className='nextsection' id='seconeone'>
+                    <div className='nextsectiontext' id='innerglow'>
+                        <h3>the heading</h3>
+                        We provide market entry and investment advisory services for
+                        businesses and investors seeking new opportunities. Our
+                        expertise includes market research, feasibility studies,
+                        regulatory guidance, risk assessment, and partner identification.
                     </div>
+                    <img src={next1} alt='nextsection' />
 
-                    <div className='whweare'>
-                        <div className='whereinner'>
-                            <h3>Who we are</h3>
-                            <p>
-                                We provide market entry and investment advisory services for
-                                businesses and investors seeking new opportunities. Our
-                                expertise includes market research, feasibility studies,
-                                regulatory guidance, risk assessment, and partner identification.
-                            </p>
-                        </div>
-                    </div>
-                    <div className='nextsection' id='seconeone'>
-                        <div className='nextsectiontext' id='innerglow'>
-                            <h3>the heading</h3>
-                            We provide market entry and investment advisory services for
-                            businesses and investors seeking new opportunities. Our
-                            expertise includes market research, feasibility studies,
-                            regulatory guidance, risk assessment, and partner identification.
-                        </div>
-                        <img src={next1} alt='nextsection' />
-
-                    </div>
+                </div>
 
                 <div className='consultcenter'>
-                <div className='theFormSection'>
-                    <div className='infoclass'>
-                        <div>Find out more. Book an appointment</div>
-                    </div>
-                    <div className='Formarea'>
-                        <div>
-                            <input
-                                type='text'
-                                placeholder='First Name'
-                            />
-                            <input
-                                type='text'
-                                placeholder='Last Name'
-                            /><br/>
-                            <input
-                                type='text'
-                                placeholder='Email'
-                            />
-                            <input
-                                type='text'
-                                placeholder='Phone Number'
-                            />
+                    <div className='theFormSection'>
+                        <div className='infoclass'>
+                            <h3>Find out more. Book an appointment</h3>
+                            <div className='contactdetails'>
+                                <div className='firstinfo'>
+                                    <img src={email} alt='emailicon'/>
+                                    catchline@gmail.com
+                                </div>
+                                <div className='firstinfo'>
+                                    <img src={address} alt='emailicon'/>
+                                    No. 2 catchline street Port harcourt
+                                </div>
+                                <div className='firstinfo'>
+                                    <img src={phone} alt='emailicon'/> 
+                                    +234 607943378, +234 449955053
+                                </div>
+                            </div>
                         </div>
-                        <textarea
-                            typeof='text'
-                            placeholder='message'
-                        />
+                        <div className='Formarea'>
+                            <div className='innerform'>
+                                <div className='theform'>
+                                    <input
+                                        type='text'
+                                        placeholder='First Name*'
+                                    />
+                                    <input
+                                        type='text'
+                                        placeholder='Last Name*'
+                                    />
+                                </div>
+                                <div className='theform'>
+                                    <input
+                                        type='text'
+                                        placeholder='Email*'
+                                    />
+                                    <input
+                                        type='text'
+                                        placeholder='Phone Number*'
+                                    />
+                                </div>
+                                <textarea
+                                    typeof='text'
+                                    placeholder='Message*'
+                                />
+                                <button className='submitbtn'>Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                    </div>
-                    </div>
+                <div >
 
                 </div>
 
