@@ -2,7 +2,7 @@ body {
     margin: 0;
     /* font-family: 'Nunito', sans-serif; */
     overflow-x: hidden;
-
+    height: 100%;
 }
 
 /* HOME SECTION */
@@ -94,6 +94,11 @@ body {
 .belowslides{
     width: 100vw;
     height: 500px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .nextsection{
     background-color: #003161;

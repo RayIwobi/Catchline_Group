@@ -1,4 +1,3 @@
-import React from 'react'
 import './style.css'
 import { Link } from 'react-router-dom'
 import Slideshow from './Slideshow'
@@ -8,9 +7,6 @@ import facebook from './assets/icons/facebook.png'
 import twitter from './assets/icons/twitter.png'
 import youtube from './assets/icons/youtube.png'
 import catchlogo from './assets/icons/catchlogo.png'
-import email from './assets/icons/email.png'
-import address from './assets/icons/location.png'
-import phone from './assets/icons/phone.png'
 import next1 from './assets/other_images/next1.jpg'
 import am1 from './assets/other_images/am1.jpg'
 import am2 from './assets/other_images/am2.jpg'
@@ -210,56 +206,7 @@ function Home() {
 
                 </div>
 
-                <div className='consultcenter'>
-                    <div className='theFormSection'>
-                        <div className='infoclass'>
-                            <h3>Find out more. Book an appointment</h3>
-                            <div className='contactdetails'>
-                                <div className='firstinfo'>
-                                    <img src={email} alt='emailicon'/>
-                                    catchline@gmail.com
-                                </div>
-                                <div className='firstinfo'>
-                                    <img src={address} alt='emailicon'/>
-                                    No. 2 catchline street Port harcourt
-                                </div>
-                                <div className='firstinfo'>
-                                    <img src={phone} alt='emailicon'/> 
-                                    +234 607943378, +234 449955053
-                                </div>
-                            </div>
-                        </div>
-                        <div className='Formarea'>
-                            <div className='innerform'>
-                                <div className='theform'>
-                                    <input
-                                        type='text'
-                                        placeholder='First Name*'
-                                    />
-                                    <input
-                                        type='text'
-                                        placeholder='Last Name*'
-                                    />
-                                </div>
-                                <div className='theform'>
-                                    <input
-                                        type='text'
-                                        placeholder='Email*'
-                                    />
-                                    <input
-                                        type='text'
-                                        placeholder='Phone Number*'
-                                    />
-                                </div>
-                                <textarea
-                                    typeof='text'
-                                    placeholder='Message*'
-                                />
-                                <button className='submitbtn'>Send Message</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div >
 

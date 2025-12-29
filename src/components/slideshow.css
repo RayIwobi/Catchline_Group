@@ -4,6 +4,30 @@
   height: 600px;
   overflow: hidden;
 }
+.textmode {
+  position: absolute;
+  bottom: 15%;
+  font-size:40px;
+  margin-left: 50px;
+  width: 55%;
+  text-align: left;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  /* overflow: hidden;        🔑 REQUIRED */
+  /* left: 30%; */
+  /* transform: translateX(-50%); */
+}
+.backgroundcolor{
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* .textmode > div {
+  white-space: nowrap;
+} */
+
 
 /* Slides */
 .slide {
