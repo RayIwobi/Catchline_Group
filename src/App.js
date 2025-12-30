@@ -4,6 +4,7 @@ import ScrollToTop from './ScrollToTop';
 import ScrollUpButton from './ScrollUpButton';
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import Navigation from "./components/Navigation";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <Router>
       <ScrollToTop/>
       <ScrollUpButton/>
+      <Navigation/>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

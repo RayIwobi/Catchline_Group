@@ -1,12 +1,5 @@
 import './style.css'
-import { Link } from 'react-router-dom'
 import Slideshow from './Slideshow'
-import instagram from './assets/icons/instagram.png'
-import linkedin from './assets/icons/linkedin.png'
-import facebook from './assets/icons/facebook.png'
-import twitter from './assets/icons/twitter.png'
-import youtube from './assets/icons/youtube.png'
-import catchlogo from './assets/icons/catchlogo.png'
 import next1 from './assets/other_images/next1.jpg'
 import am1 from './assets/other_images/am1.jpg'
 import am2 from './assets/other_images/am2.jpg'
@@ -14,40 +7,12 @@ import am8 from './assets/other_images/am8.jpg'
 import am4 from './assets/other_images/am4.jpg'
 import am5 from './assets/other_images/am5.jpg'
 import am6 from './assets/other_images/am6.jpg'
+import imb from './assets/other_images/imb.jpg'
 
 function Home() {
     return (
         <div className='centralContainer'>
-            <div className='topbeforenav'>
-                <div className='firstnav'>
-                    <ul>
-                        <li>Our sponsors</li>
-                        <li>Events</li>
-                        <li>FAQs</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-                <div className='topsocials'>
-                    <img src={instagram} alt='topsocial' className='topsocial' />
-                    <img src={linkedin} alt='topsocial' className='topsocial' />
-                    <img src={facebook} alt='topsocial' className='topsocial' />
-                    <img src={twitter} alt='topsocial' className='topsocial' />
-                    <img src={youtube} alt='topsocial' className='topsocial' />
-                </div>
-            </div>
-            <div className='logoandmainnav'>
-                <img src={catchlogo} alt='catchlogo' className='catchlogo' />
-
-                <ul>
-                    <Link to=''><li>Home</li></Link>
-                    <Link to=''><li>About Catchline</li></Link>
-                    <Link to=''><li>Our Services</li></Link>
-                    <Link to=''><li>Programmes</li></Link>
-                    <Link to=''><li>Business School</li></Link>
-                    <Link to=''><li>Communities</li></Link>
-                    <Link to=''><li>Insights</li></Link>
-                </ul>
-            </div>
+            
             <div >
             </div>
             <div>
@@ -102,7 +67,9 @@ function Home() {
                         We provide market entry and investment advisory services for
                         businesses and investors seeking new opportunities. Our
                         expertise includes market research, feasibility studies,
-                        regulatory guidance, risk assessment, and partner identification.
+                        regulatory guidance, risk assessment, and partner identification.<br/>
+
+                        <button className='sectionbutton' id='shim'>Learn More</button>
                     </div>
 
                 </div>
@@ -194,15 +161,17 @@ function Home() {
                         </p>
                     </div>
                 </div>
-                <div className='nextsection' id='seconeone'>
-                    <div className='nextsectiontext' id='innerglow'>
+                <div className='closesection'>
+                    <div className='closetext'>
                         <h3>the heading</h3>
                         We provide market entry and investment advisory services for
                         businesses and investors seeking new opportunities. Our
                         expertise includes market research, feasibility studies,
                         regulatory guidance, risk assessment, and partner identification.
+
+                        <button className='sectionbutton'>Learn More</button>
                     </div>
-                    <img src={next1} alt='nextsection' />
+                    <img src={imb} alt='nextsection' />
 
                 </div>
 
