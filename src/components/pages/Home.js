@@ -1,13 +1,13 @@
-import './style.css'
-import Slideshow from './Slideshow'
-import next1 from './assets/other_images/next1.jpg'
-import am1 from './assets/other_images/am1.jpg'
-import am2 from './assets/other_images/am2.jpg'
-import am8 from './assets/other_images/am8.jpg'
-import am4 from './assets/other_images/am4.jpg'
-import am5 from './assets/other_images/am5.jpg'
-import am6 from './assets/other_images/am6.jpg'
-import imb from './assets/other_images/imb.jpg'
+import '../style.css'
+import Slideshow from '../Slideshow'
+import next1 from '../assets/other_images/next1.jpg'
+import am1 from '../assets/other_images/am1.jpg'
+import am2 from '../assets/other_images/am2.jpg'
+import am8 from '../assets/other_images/am8.jpg'
+import am4 from '../assets/other_images/am4.jpg'
+import am5 from '../assets/other_images/am5.jpg'
+import am6 from '../assets/other_images/am6.jpg'
+import imb from '../assets/other_images/imb.jpg'
 
 function Home() {
     return (

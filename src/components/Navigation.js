@@ -15,7 +15,6 @@ function Navigation() {
             <div className='topbeforenav'>
                 <div className='firstnav'>
                     <ul>
-                        <li>Our sponsors</li>
                         <li>Events</li>
                         <li>FAQs</li>
                         <li>Contact</li>

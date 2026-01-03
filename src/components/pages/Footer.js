@@ -1,8 +1,8 @@
-import './style.css'
-import catchline from './assets/icons/catchline.png'
-import email from './assets/icons/email.png'
-import address from './assets/icons/location.png'
-import phone from './assets/icons/phone.png'
+import '../style.css'
+import catchline from '../assets/icons/catchline.png'
+import email from '../assets/icons/email.png'
+import address from '../assets/icons/location.png'
+import phone from '../assets/icons/phone.png'
 
 
 function Footer() {
@@ -65,9 +65,11 @@ function Footer() {
                         <h3>Catchline Group</h3>
                         <h5>Transforming African Businesses for Global Relevance</h5>
                     </div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div className='footerlinknav'>
+                        <div>ccccccccccc</div>
+                        <div>cccccccccccccccccccc</div>
+                        <div>cccccccccccccccccccccccccc</div>
+                    </div>
                 </div>
             </div>
         </>
