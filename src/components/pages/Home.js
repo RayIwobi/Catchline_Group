@@ -12,14 +12,13 @@ import imb from '../assets/other_images/imb.jpg'
 function Home() {
     return (
         <div className='centralContainer'>
-            
+
             <div >
             </div>
             <div>
                 <Slideshow />
                 <div className='backgroundimage'>
                     <div className='belowslides'>
-                        {/* <div className='insidecontent'> */}
                         <div className='openspace-content'>
                             <h3>Business Consulting</h3>
                             <p>
@@ -57,19 +56,20 @@ function Home() {
                             <button>Learn More</button>
                         </div>
                     </div>
-                    {/* </div> */}
 
                 </div>
                 <div className='nextsection'>
-                    <img src={next1} alt='nextsection' />
-                    <div className='nextsectiontext'>
-                        <h3>the heading</h3>
-                        We provide market entry and investment advisory services for
-                        businesses and investors seeking new opportunities. Our
-                        expertise includes market research, feasibility studies,
-                        regulatory guidance, risk assessment, and partner identification.<br/>
+                    <div className='nexsecinner'>
+                        <img src={next1} alt='nextsection' id='imagehome' />
+                        <div className='nextsectiontext'>
+                            <h3>the heading</h3>
+                            We provide market entry and investment advisory services for
+                            businesses and investors seeking new opportunities. Our
+                            expertise includes market research, feasibility studies,
+                            regulatory guidance, risk assessment, and partner identification.<br />
 
-                        <button className='sectionbutton' id='shim'>Learn More</button>
+                            <button className='sectionbutton' id='shim'>Learn More</button>
+                        </div>
                     </div>
 
                 </div>
@@ -162,6 +162,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='closesection'>
+                    <div className='clsesecinner'>
                     <div className='closetext'>
                         <h3>the heading</h3>
                         We provide market entry and investment advisory services for
@@ -174,8 +175,7 @@ function Home() {
                     <img src={imb} alt='nextsection' />
 
                 </div>
-
-                
+                </div>
 
                 <div >
 

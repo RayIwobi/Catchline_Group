@@ -24,10 +24,6 @@
   padding: 10px;
 }
 
-/* .textmode > div {
-  white-space: nowrap;
-} */
-
 
 /* Slides */
 .slide {
@@ -71,13 +67,18 @@
   right: 15px;
 }
 
-
-/* .whiteOverlay{
-    position: absolute;
-    width: 100vw;
-    height: 600px;
-    z-index: 4;
-    top: 0;
-    margin-top: 140px;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 50%);
-} */
+@media screen and (max-width: 600px){
+  .slideshow{
+    width: 100%;
+    height: 300px;
+  }
+  .textmode{
+    font-size: 17px;
+    bottom: auto;
+    margin-top: -100px;
+    width: 70%;
+  }
+  .backgroundcolor{
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}

@@ -1,30 +1,7 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./slideshow.css";
-// import img1 from './assets/slides/img1.jpg'
-// import img2 from './assets/slides/img2.jpg'
-// import img3 from './assets/slides/img3.jpg'
-// import img4 from './assets/slides/img4.jpg'
-// import img5 from './assets/slides/img5.jpg'
-// import img6 from './assets/slides/img6.jpg'
-// import img7 from './assets/slides/img7.jpg'
-// import img8 from './assets/slides/img8.jpg'
-// import img9 from './assets/slides/img9.jpg'
 
-// ANIMATED TEXT
-
-
-// const slides = [
-//   {img8, text: "Innovative Metering Solutions for Accurate Data, Delivering precision metering systems that optimize efficiency and reliability."}, 
-//   {img1, text: "Innovative Metering Solutions for Accurate Data, Delivering precision metering systems that optimize efficiency and reliability."}, 
-//   {img2, text: "Innovative Metering Solutions for Accurate Data, Delivering precision metering systems that optimize efficiency and reliability."}, 
-//   img3, 
-//   img4, 
-//   img5, 
-//   img6, 
-//   img7, 
-//   img9
-// ];
 
 const mediaFiles = [
   { type: "image", src: "/media/images/img1.jpg", text: "Innovative Metering Solutions for Accurate Data, Delivering precision metering systems that optimize efficiency and reliability." },
