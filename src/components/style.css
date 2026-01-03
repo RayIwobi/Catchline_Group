@@ -96,14 +96,14 @@ body {
     width: 100vw;
     height: 600px;
     background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-
 
 .belowslides {
     width: 100vw;
     height: fit-content;
-    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,6 +126,8 @@ body {
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .nextsection img {
@@ -171,6 +173,7 @@ body {
     .belowslides {
         width: 100%;
         display: flex;
+        padding-top: 30px;
         flex-direction: column;
     }
 
@@ -246,6 +249,11 @@ body {
     inset: 0;
     background: rgba(0, 0, 0, 0.3);
     transition: background 0.6s ease;
+}
+@media screen and (max-width:600px){
+    .image-card .overlay {
+    background: rgba(0, 0, 0, 0.01);
+    }
 }
 
 /* text area */
