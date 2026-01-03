@@ -197,7 +197,7 @@ body {
 
 @media screen and (max-width:600px) {
     .backgroundimage {
-        background-image: url('./assets/other_images/bg2.jpg');
+        background-image: url('./assets/other_images/bg3.jpg');
         width: 100%;
         height: fit-content;
     }
