@@ -3,6 +3,7 @@ body {
     /* font-family: 'Nunito', sans-serif; */
     overflow-x: hidden;
     height: 100%;
+    color: black;
 }
 
 /* HOME SECTION */
@@ -517,6 +518,7 @@ body {
 
 .abouttoptext p {
     line-height: 1.5;
+    color: black;
 }
 
 .abtsecondlayer {
@@ -553,6 +555,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 40px;
+    color: black;
 }
 
 .serviceContaind {
@@ -613,6 +616,7 @@ body {
 .serviceLayer p {
     margin-bottom: 30px;
     font-weight: 100;
+    color: black;
 }
 
 .servicesections {
