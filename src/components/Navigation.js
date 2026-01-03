@@ -14,20 +14,25 @@ function Navigation() {
         <div className='centralContainer'>
             <div className='topbeforenav'>
                 <div className='firstnav'>
+                    <div className='insidenav'>
                     <ul>
                         <li>Events</li>
                         <li>FAQs</li>
                         <li>Contact</li>
                     </ul>
                 </div>
+                </div>
                 <div className='topsocials'>
-                    <img src={instagram} alt='topsocial' className='topsocial' />
-                    <img src={linkedin} alt='topsocial' className='topsocial' />
-                    <img src={facebook} alt='topsocial' className='topsocial' />
-                    <img src={twitter} alt='topsocial' className='topsocial' />
-                    <img src={youtube} alt='topsocial' className='topsocial' />
+                    <div className='innertopsocials'>
+                        <img src={instagram} alt='topsocial' className='topsocial' />
+                        <img src={linkedin} alt='topsocial' className='topsocial' />
+                        <img src={facebook} alt='topsocial' className='topsocial' />
+                        <img src={twitter} alt='topsocial' className='topsocial' />
+                        <img src={youtube} alt='topsocial' className='topsocial' />
+                    </div>
                 </div>
             </div>
+            <div className='mobilespacing'></div>
             <div className='logoandmainnav'>
                 <img src={catchlogo} alt='catchlogo' className='catchlogo' />
 
