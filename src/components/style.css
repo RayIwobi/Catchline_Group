@@ -657,6 +657,10 @@ body {
 .aspirinImage {
     width: 100%;
 }
+.sections{
+    font-size: 16px;
+    color: black;
+}
 
 @media screen and (max-width:600px) {
     .servicebanner {

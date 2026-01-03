@@ -8,7 +8,7 @@ function ForSMEs() {
                     <div className='serviceLayer'>
                         
                         <h3>For SMEs</h3>
-                        <p>
+                        <div className='sections'>
                             Small and medium-sized enterprises face unique challenges—from
                             managing growth and developing people to maintaining quality
                             and staying competitive in changing markets. At Catchline
@@ -21,7 +21,7 @@ function ForSMEs() {
                             development, expert coaching, or an objective review of your
                             processes, our tailored approach ensures solutions are aligned
                             with your goals and the realities of running an SME.
-                        </p>
+                        </div>
                         <div className='serviceContaind'>
                         <div className='dipo'>
                             <h4>Business Consulting</h4>
