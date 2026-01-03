@@ -68,7 +68,7 @@ function Footer() {
                     <div className='footerlinknav'>
                         <div>ccccccccccc</div>
                         <div>cccccccccccccccccccc</div>
-                        <div>cccccccccccccccccccccccccc</div>
+                        <div>cccccccccccccccccccccccccc</div> 
                     </div>
                 </div>
             </div>
