@@ -69,6 +69,8 @@ body {
     .topsocials{
         background-color: #003161;
         width: 100%;
+        margin: 0;
+        padding-right: 20px;
     }
     .innertopsocials{
         width: 45%;
