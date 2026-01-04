@@ -1,8 +1,15 @@
+import { Link } from 'react-router-dom'
 import '../style.css'
 import catchline from '../assets/icons/catchline.png'
 import email from '../assets/icons/email.png'
 import address from '../assets/icons/location.png'
 import phone from '../assets/icons/phone.png'
+import linkedin from '../assets/socials/linkedin.png'
+import facebook from '../assets/socials/facebook.png'
+import instagram from '../assets/socials/instagram.png'
+import twitter from '../assets/socials/twitter.png'
+import youtube from '../assets/socials/youtube.png'
+import tiktok from '../assets/socials/tiktok.png'
 
 
 function Footer() {
@@ -22,7 +29,7 @@ function Footer() {
                                 No. 2 catchline street Port harcourt
                             </div>
                             <div className='firstinfo'>
-                                <img src={phone} alt='emailicon' /> 
+                                <img src={phone} alt='emailicon' />
                                 +234 607943378, +234 449955053, 0706 111 8684
                             </div>
                         </div>
@@ -66,9 +73,40 @@ function Footer() {
                         <h5>Transforming African Businesses for Global Relevance</h5>
                     </div>
                     <div className='footerlinknav'>
-                        <div>ccccccccccc</div>
-                        <div>cccccccccccccccccccc</div>
-                        <div>cccccccccccccccccccccccccc</div> 
+                        <div className='inlinlnav'>
+                            <div className='tam'>
+                                <h3>Catchline Group</h3>
+                                <Link to='/contact'><h4>Consultation</h4></Link>
+                                <Link to='/insights'><h4>Business Articles</h4></Link>
+                                <Link to='/services'><h4>Training & Development</h4></Link>
+                                <Link to='/services'><h4>Coaching & Mentorship</h4></Link>
+
+                            </div>
+                            <div className='tam'>
+                                <h3>Quick Links</h3>
+                                <Link to='/home'><h4>Home</h4></Link>
+                                <Link to='/about'><h4>About Catchline</h4></Link>
+                                <Link to='/services'><h4>Our Services</h4></Link>
+                                <Link to='/business-school'><h4>Business School</h4></Link>
+                                <Link to='/programmes'><h4>Programmes</h4></Link>
+                                <Link to='/communities'><h4>Communities</h4></Link>
+                                <Link to='/insights'><h4>Insights</h4></Link>
+                            </div>
+                            <div className='tam'>
+                                <h3>Copyright & Legal</h3>
+                                <Link to='/privacy'><h4>Privacy Policy</h4></Link>
+                                <Link to='/legal'><h4>Legal</h4></Link>
+                                <h3>Socials</h3>
+                                <div className='socials'>
+                                    <Link to='https://linkedin.con/in/meetjudeobiekwe'><img src={linkedin} alt='socials' /></Link>
+                                    <Link to=''><img src={facebook} alt='socials' /></Link>
+                                    <Link to='https://instagram.com/meetjudeobiekwe'><img src={instagram} alt='socials' /></Link>
+                                    <Link to='https://x.com/meetjudeobiekwe'><img src={twitter} alt='socials' /></Link>
+                                    <Link to='https://youtube.com/@meetjudeobiekwe'><img src={youtube} alt='socials' /></Link>
+                                    <Link to='https://tiktok.com/@meetjudeobiekwe'><img src={tiktok} alt='socials' /></Link>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
