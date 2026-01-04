@@ -22,8 +22,8 @@ function Footer() {
                                 No. 2 catchline street Port harcourt
                             </div>
                             <div className='firstinfo'>
-                                <img src={phone} alt='emailicon' />
-                                +234 607943378, +234 449955053
+                                <img src={phone} alt='emailicon' /> 
+                                +234 607943378, +234 449955053, 0706 111 8684
                             </div>
                         </div>
                     </div>
