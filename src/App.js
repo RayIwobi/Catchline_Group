@@ -11,6 +11,7 @@ import Programmes from "./components/pages/Programmes";
 import BusinessSchool from "./components/pages/BusinessSchool";
 import Communities from "./components/pages/Communities";
 import Insights from "./components/pages/Insights";
+import Navbar from "./components/Navbar";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <ScrollToTop/>
       <ScrollUpButton/>
       <Navigation/>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
