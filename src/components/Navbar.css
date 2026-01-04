@@ -54,13 +54,14 @@
     position: absolute;
     top: 100%;
     right: 0;
-    background: #fff;
+    background-image: url('./assets/other_images/pan.jpg');
     flex-direction: column;
     width: 100%;
     padding: 16px 0;
     gap: 18px;
     font-weight: bold;
     padding-left: 10px;
+    margin-top: 0;
 
     /* CLOSED STATE */
     opacity: 0;
