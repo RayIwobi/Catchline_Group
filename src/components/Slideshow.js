@@ -18,7 +18,7 @@ const mediaFiles = [
 export default function Slideshow() {
   const [current, setCurrent] = useState(0);
 
-  // Auto-slide
+  // Auto-slide 
   useEffect(() => {
     const interval = setInterval(nextSlide, 5000);
     return () => clearInterval(interval);

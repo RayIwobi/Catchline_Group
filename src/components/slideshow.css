@@ -8,18 +8,20 @@
   position: absolute;
   bottom: 15%;
   font-size:40px;
-  margin-left: 50px;
+  margin-left: 55px;
   width: 55%;
   text-align: left;
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
+  color: black;
+  font-weight: bold;
   /* overflow: hidden;        🔑 REQUIRED */
   /* left: 30%; */
   /* transform: translateX(-50%); */
 }
 .backgroundcolor{
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
   padding: 10px;
 }
@@ -46,7 +48,7 @@
   top: 50%;
   transform: translateY(-50%);
   background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  color: #111;
   border: none;
   font-size: 2rem;
   padding: 8px 14px;
@@ -75,11 +77,11 @@
   .textmode{
     font-size: 15px;
     bottom: auto;
-    margin-top: -97px;
+    margin-top: -95px;
     width: 100%;
     margin-left: 0px;
   }
   .backgroundcolor{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
   }
 }
