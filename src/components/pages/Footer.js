@@ -84,7 +84,7 @@ function Footer() {
                             </div>
                             <div className='tam'>
                                 <h3>Quick Links</h3>
-                                <Link to='/home'><h4>Home</h4></Link>
+                                <Link to='/'><h4>Home</h4></Link>
                                 <Link to='/about'><h4>About Catchline</h4></Link>
                                 <Link to='/services'><h4>Our Services</h4></Link>
                                 <Link to='/business-school'><h4>Business School</h4></Link>
@@ -99,7 +99,7 @@ function Footer() {
                                 <h3>Socials</h3>
                                 <div className='socials'>
                                     <Link to='https://linkedin.con/in/meetjudeobiekwe'><img src={linkedin} alt='socials' /></Link>
-                                    <Link to=''><img src={facebook} alt='socials' /></Link>
+                                    <Link to='https://www.facebook.com/share/1By9soE2zv'><img src={facebook} alt='socials' /></Link>
                                     <Link to='https://instagram.com/meetjudeobiekwe'><img src={instagram} alt='socials' /></Link>
                                     <Link to='https://x.com/meetjudeobiekwe'><img src={twitter} alt='socials' /></Link>
                                     <Link to='https://youtube.com/@meetjudeobiekwe'><img src={youtube} alt='socials' /></Link>

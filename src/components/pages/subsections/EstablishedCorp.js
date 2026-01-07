@@ -22,7 +22,7 @@ function EstablishedCorp() {
                             <div className='dipo'>
                                 <h4>Corporate Governance Consulting</h4>
                                 <div className='sections'>
-                                    We support organisations in strengthening governance structures,
+                                    We support organisations in strengthening governance structures, 
                                     policies, and practices to ensure transparency, accountability,
                                     and effective oversight. Our corporate governance consulting helps
                                     boards and executive teams align governance frameworks with regulatory

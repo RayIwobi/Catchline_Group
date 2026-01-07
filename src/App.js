@@ -1,5 +1,5 @@
 // App.js
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import ScrollToTop from './ScrollToTop';
 import ScrollUpButton from './ScrollUpButton';
 import Home from "./components/pages/Home";
@@ -12,11 +12,14 @@ import BusinessSchool from "./components/pages/BusinessSchool";
 import Communities from "./components/pages/Communities";
 import Insights from "./components/pages/Insights";
 import Navbar from "./components/Navbar";
+import Contact from "./components/pages/Contact";
+import FAQ from "./components/pages/FAQ";
+
 
 function App() {
 
   return (
-    <Router>
+    <>
       <ScrollToTop/>
       <ScrollUpButton/>
       <Navigation/>
@@ -30,9 +33,11 @@ function App() {
         <Route path="/programmes" element={<Programmes />} />
         <Route path="/communities" element={<Communities />} />
         <Route path="/insights" element={<Insights />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
       <Footer/>
-    </Router>
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
 import '../style.css'
-import service from '../assets/other_images/service.jpg'
+import serveic from '../assets/other_images/serveic.jpg'
 import { useState } from 'react'
 import ForSMEs from './subsections/ForSMEs'
 import ForAspiringEntreprenuers from './subsections/ForAspiringEntreprenuers'
@@ -13,7 +13,7 @@ function Services() {
     return (
         <div className='centralContainer'>
             <div>
-                <img src={service} alt='servicebanner' className='servicebanner' />
+                <img src={serveic} alt='servicebanner' className='servicebanner' />
                 <div className='upperservicelayer'>
                     <div className='serviceLayer'>
                         <div className='servicesections'>

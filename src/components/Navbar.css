@@ -32,6 +32,20 @@
 .menu li {
   cursor: pointer;
 }
+.menu a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+.menu a:hover{
+  color: blue;
+}
+.menu a.active{
+  color: blue;
+  border: none;
+  border-bottom: 2px solid #12f3d5;
+}
 
 /* Hamburger hidden on desktop */
 .hamburger {

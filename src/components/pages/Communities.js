@@ -1,184 +1,85 @@
 import '../style.css'
-import Slideshow from '../Slideshow'
-import next1 from '../assets/other_images/next1.jpg'
-import am1 from '../assets/other_images/am1.jpg'
-import am2 from '../assets/other_images/am2.jpg'
-import am8 from '../assets/other_images/am8.jpg'
-import am4 from '../assets/other_images/am4.jpg'
-import am5 from '../assets/other_images/am5.jpg'
-import am6 from '../assets/other_images/am6.jpg'
-import imb from '../assets/other_images/imb.jpg'
+import comm from '../assets/other_images/comm.jpg'
 
 function Communities() {
     return (
         <div className='centralContainer'>
-            
-            <div >
-            </div>
-            <div>
-                <Slideshow />
-                <div className='backgroundimage'>
-                    <div className='belowslides'>
-                        {/* <div className='insidecontent'> */}
-                        <div className='openspace-content'>
-                            <h3>Business Consulting</h3>
-                            <p>
-                                We provide strategic business consulting services designed
-                                to help organizations grow, adapt, and remain competitive.
-                                Our approach combines deep industry insight with practical
-                                solutions to improve operations, strengthen governance,
-                                optimize financial performance, and support sustainable growth.
-                                Whether you are scaling, restructuring, or entering new markets,
-                                we work closely with your leadership team to...
-                            </p>
-                            <button>Learn More</button>
-                        </div>
-                        <div className='openspace-content'>
-                            <h3>Training & Development</h3>
-                            <p>
-                                Our training and development programs are tailored to build capacity
-                                at both individual and organizational levels. We design and deliver
-                                practical, results-oriented training that enhances leadership skills,
-                                operational efficiency, technical competence, and workforce productivity.
-                                Through workshops, seminars, and customized learning sessions, we empower
-                                teams with the knowledge and skills needed to perform...
-                            </p>
-                            <button>Learn More</button>
-                        </div>
-                        <div className='openspace-content'>
-                            <h3>Coaching & Mentorship</h3>
-                            <p>
-                                We offer personalized coaching and mentorship services to support executives,
-                                entrepreneurs, and emerging leaders. Our coaching focuses on leadership development,
-                                decision-making, performance improvement, and long-term career growth. By combining
-                                experience-based guidance with structured mentorship, we help individuals unlock their
-                                potential, navigate challenges, and achieve...
-                            </p>
-                            <button>Learn More</button>
-                        </div>
-                    </div>
-                    {/* </div> */}
+            <div className='communitysec'>
+                <img src={comm} alt='bannerimage' />
+                <div className='commucontent1'>
+                    <div className='commucontent2'>
+                        <h3>Communities</h3><br />
+                        <div className='inincom'>
+                            <div className='comsec1'>
+                                <div>
+                                    <strong>Highlighting Catchline’s membership-based ecosystems</strong><br />
+                                    Catchline’s communities are purpose-driven ecosystems designed to
+                                    foster collaboration, knowledge exchange, and long-term relationships.
+                                    Each community brings together individuals and organisations with shared
+                                    interests, values, and goals—creating platforms where ideas are refined,
+                                    opportunities are unlocked, and collective impact is strengthened. Through
+                                    these communities, Catchline extends its work beyond consulting and programs,
+                                    building enduring networks that support growth, leadership, and influence
+                                    across sectors and borders.
+                                </div><br />
+                                <div>
+                                    <strong>Businessmen Alumni</strong><br />
+                                    The Businessmen Alumni community is a network of past clients, program graduates,
+                                    and partners who continue to engage beyond formal engagements. This community
+                                    provides ongoing access to insights, peer learning, and strategic conversations,
+                                    enabling members to share experiences, explore collaborations, and sustain
+                                    long-term professional relationships.
+                                </div><br />
+                                <div>
+                                    <strong>Business School Community</strong><br />
+                                    The Business School Community connects participants of Catchline’s leadership
+                                    and entrepreneurship programs into a unified learning ecosystem. It supports
+                                    continuous development through shared resources, discussions, and events,
+                                    ensuring members remain engaged, informed, and connected as they apply their
+                                    learning in real-world contexts.
+                                </div><br />
+                                <div>
+                                    <strong>Business Club</strong><br />
+                                    The Business Club is a professional forum where business leaders, executives,
+                                    and entrepreneurs exchange ideas, insights, and opportunities. Through curated
+                                    engagements and discussions, the Club promotes thought leadership, peer-to-peer
+                                    learning, and strategic networking in a trusted environment.
+                                </div>
+                            </div>
+                            <div className='comsec1'>
+                                <div>
+                                    <strong>Business Network Web</strong><br />
+                                    The Business Network Web is a dynamic network linking local and global partners, 
+                                    including businesses, investors, institutions, and development actors. This 
+                                    ecosystem facilitates cross-border collaboration, market access, and partnership 
+                                    development, supporting members in expanding their reach and influence.
+                                </div><br />
+                                <div>
+                                    <strong>Kingdom Business Masters</strong><br />
+                                    Kingdom Business Masters is a values-driven community that integrates ethical 
+                                    and spiritual principles into business leadership and enterprise development. 
+                                    It provides a space for reflection, dialogue, and learning on responsible leadership, 
+                                    purpose-driven enterprise, and value-based decision-making.
+                                </div><br />
+                                <div>
+                                    <strong>Global Financial Forum</strong><br />
+                                    The Global Financial Forum is a thought leadership platform focused on finance, 
+                                    investment, and economic trends. It brings together financial experts, policymakers, 
+                                    investors, and business leaders to discuss emerging issues, share insights, and shape 
+                                    conversations around sustainable financial systems.
+                                </div><br />
+                                <div>
+                                    <strong>Global Political Forum</strong><br />
+                                    The Global Political Forum provides a platform for informed discussions on political, 
+                                    economic, and governance issues that influence business and development. By fostering 
+                                    dialogue among leaders, analysts, and stakeholders, the Forum supports deeper understanding 
+                                    of policy dynamics and their impact on economies and markets.
+                                </div>
 
-                </div>
-                <div className='nextsection'>
-                    <img src={next1} alt='nextsection' />
-                    <div className='nextsectiontext'>
-                        <h3>the heading</h3>
-                        We provide market entry and investment advisory services for
-                        businesses and investors seeking new opportunities. Our
-                        expertise includes market research, feasibility studies,
-                        regulatory guidance, risk assessment, and partner identification.<br/>
-
-                        <button className='sectionbutton' id='shim'>Learn More</button>
-                    </div>
-
-                </div>
-                <div className='imagelinkdesign'>
-                    <div className='imagecard-container'>
-                        <div className='image-card'>
-                            <img src={am1} alt='frontline' />
-                            <div className='overlay'></div>
-
-                            <div className='text-box'>
-                                <h3>image title</h3>
-                                <p>
-                                    This is the content
-                                </p>
                             </div>
                         </div>
-                        <div className='image-card'>
-                            <img src={am2} alt='frontline' />
-                            <div className='overlay'></div>
 
-                            <div className='text-box'>
-                                <h3>image title</h3>
-                                <p>
-                                    This is the content
-                                </p>
-                            </div>
-                        </div>
                     </div>
-
-                    <div className='imagecard-container'>
-                        <div className='image-card'>
-                            <img src={am6} alt='frontline' />
-                            <div className='overlay'></div>
-
-                            <div className='text-box'>
-                                <h3>image title</h3>
-                                <p>
-                                    This is the content
-                                </p>
-                            </div>
-                        </div>
-                        <div className='image-card'>
-                            <img src={am4} alt='frontline' />
-                            <div className='overlay'></div>
-
-                            <div className='text-box'>
-                                <h3>image title</h3>
-                                <p>
-                                    This is the content
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='imagecard-container'>
-                        <div className='image-card'>
-                            <img src={am5} alt='frontline' />
-                            <div className='overlay'></div>
-
-                            <div className='text-box'>
-                                <h3>image title</h3>
-                                <p>
-                                    This is the content
-                                </p>
-                            </div>
-                        </div>
-                        <div className='image-card'>
-                            <img src={am8} alt='frontline' />
-                            <div className='overlay'></div>
-
-                            <div className='text-box'>
-                                <h3>image title</h3>
-                                <p>
-                                    This is the content
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='whweare'>
-                    <div className='whereinner'>
-                        <h3>Who we are</h3>
-                        <p>
-                            We provide market entry and investment advisory services for
-                            businesses and investors seeking new opportunities. Our
-                            expertise includes market research, feasibility studies,
-                            regulatory guidance, risk assessment, and partner identification.
-                        </p>
-                    </div>
-                </div>
-                <div className='closesection'>
-                    <div className='closetext'>
-                        <h3>the heading</h3>
-                        We provide market entry and investment advisory services for
-                        businesses and investors seeking new opportunities. Our
-                        expertise includes market research, feasibility studies,
-                        regulatory guidance, risk assessment, and partner identification.
-
-                        <button className='sectionbutton'>Learn More</button>
-                    </div>
-                    <img src={imb} alt='nextsection' />
-
-                </div>
-
-                
-
-                <div >
-
                 </div>
 
             </div>

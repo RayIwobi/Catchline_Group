@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from 'react'
 import './Navbar.css'
 import catchlogo from './assets/icons/catchlogo.png'
+import { NavLink } from 'react-router-dom'
+
 
 
 function Navbar() {
@@ -36,13 +38,13 @@ function Navbar() {
                     ref={menuRef}
                     className={`menu ${isOpen ? "open" : ""}`}
                 >
-                    <li onClick={() => setIsOpen(false)}>Home</li>
-                    <li onClick={() => setIsOpen(false)}>About Catchline</li>
-                    <li onClick={() => setIsOpen(false)}>Our Services</li>
-                    <li onClick={() => setIsOpen(false)}>Programmes</li>
-                    <li onClick={() => setIsOpen(false)}>Business School</li>
-                    <li onClick={() => setIsOpen(false)}>Communities</li>
-                    <li onClick={() => setIsOpen(false)}>Insights</li>
+                    <NavLink to='/'><li onClick={() => setIsOpen(false)}>Home</li></NavLink>
+                    <NavLink to='/about'><li onClick={() => setIsOpen(false)}>About Catchline</li></NavLink>
+                    <NavLink to='/services'><li onClick={() => setIsOpen(false)}>Our Services</li></NavLink>
+                    <NavLink to='/programmes'><li onClick={() => setIsOpen(false)}>Programmes</li></NavLink>
+                    <NavLink to='/business-school'><li onClick={() => setIsOpen(false)}>Business School</li></NavLink>
+                    <NavLink to='/communities'><li onClick={() => setIsOpen(false)}>Communities</li></NavLink>
+                    <NavLink to='/insights'><li onClick={() => setIsOpen(false)}>Insights</li></NavLink>
                 </ul>
             </nav>
         </div>
