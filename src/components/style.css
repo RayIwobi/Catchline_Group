@@ -134,7 +134,7 @@ body {
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 602px) and (max-width: 991px) {
     .socialstop {
         width: 35%;
     }
@@ -288,7 +288,7 @@ body {
 
 }
 
-@media screen and (min-width:768px) and (max-width: 991px) {
+@media screen and (min-width:602px) and (max-width: 991px) {
     .nexsecinner {
         width: 90%;
         display: flex;
@@ -428,7 +428,7 @@ body {
     transform: translateY(-10px)
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 602px) and (max-width: 991px) {
     .imagelinkdesign {
         width: 100%;
         display: flex;
@@ -525,7 +525,7 @@ body {
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:602px) {
     .openspace-content {
         width: 80%;
         text-align: center;
@@ -644,7 +644,7 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 602px) and (max-width: 991px) {
     .clsesecinner {
         width: 90%;
         display: flex;
@@ -926,7 +926,7 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 602px) and (max-width: 991px) {
     .banerimg {
         width: 100%;
         height: 350px;
@@ -1066,7 +1066,7 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 602px) and (max-width: 991px) {
     .servicebanner {
         width: 100%;
         height: 350px;
@@ -1628,7 +1628,7 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 602px) and (max-width: 991px) {
     .consultcenter {
         width: 100%;
         margin-bottom: 10px;
