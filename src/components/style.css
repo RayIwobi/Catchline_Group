@@ -1658,12 +1658,13 @@ body {
     }
 
     .inlinlnav {
-        width: 90%;
+        width: 80%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-left: 30px;
+        margin-left: auto;
         padding-top: 10px;
+        padding-right: 20px;
     }
 
     .tam {
