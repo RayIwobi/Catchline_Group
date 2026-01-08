@@ -139,8 +139,9 @@ function BusinessSchool() {
                                     </p>
                                 </div>
                                 
-                                <img src={ab3} alt='show images'  id='secondbusinessimg' />
+                                <img src={ab3} alt='showimage'  id='secondbusinessimg' />
                             </div>
+                                <img src={ab3} alt='showimage'  id='showimagein' />
                         </div>
                     </div>
                 </div>
