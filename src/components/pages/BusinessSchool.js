@@ -8,7 +8,7 @@ function BusinessSchool() {
     return (
         <div className='centralContainer'>
             <div>
-                <img src={bs} alt='bs' className='bschool' />
+                <img src={bs} alt='bs' className='servicebanner' />
                 <div className='busi-school'>
                     <div className='businesscontainer'>
                         <h3>THE EDGE BUSINESS SCHOOL</h3>
@@ -138,7 +138,8 @@ function BusinessSchool() {
                                         adaptability, and global relevance.
                                     </p>
                                 </div>
-                                <img src={ab3} alt='show images' />
+                                
+                                <img src={ab3} alt='show images'  id='secondbusinessimg' />
                             </div>
                         </div>
                     </div>

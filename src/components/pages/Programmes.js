@@ -5,7 +5,7 @@ function Programmes() {
     return (
         <div >
             <div>
-                <img src={program} alt='programs' />
+                <img src={program} alt='programs' className='servicebanner' />
                 <div className='programContainer'>
                     <div className='progsinner'>
                         <h3>Programs</h3>

@@ -9,7 +9,7 @@ function About() {
         <div className='centralContainer'>
 
             <div>
-                <img src={above} alt='' className='banerimg' />
+                <img src={above} alt='' className='servicebanner' id='aboutimage'/>
                 <div className='aboutTop'>
                     <div className='aboutTopInner'>
                         <img src={abt1} alt='aboutImage' />

@@ -306,7 +306,7 @@ body {
     }
 
     .backgroundimage {
-    background-image: url('./assets/other_images/bgimage.jpg');
+        background-image: url('./assets/other_images/bgimage.jpg');
         width: 100%;
         height: fit-content;
     }
@@ -666,6 +666,10 @@ body {
 
 
 /* ABOUT US SECTION */
+#aboutimage {
+    object-fit: cover;
+}
+
 .aboutTop {
     width: 100%;
     height: fit-content;
@@ -873,7 +877,6 @@ body {
     align-items: center;
     justify-content: center;
     font-family: poppins-semibold, sans-serif;
-
 }
 
 .innerceo {
@@ -929,7 +932,14 @@ body {
 @media screen and (min-width: 602px) and (max-width: 991px) {
     .banerimg {
         width: 100%;
-        height: 350px;
+        height: 200px;
+    }
+
+    .aboutTop img {
+        width: 300px;
+        height: 500px;
+        border-radius: 10px;
+        margin-right: 45px;
     }
 
     .aboutTopInner {
@@ -964,11 +974,32 @@ body {
         margin: 0;
     }
 
+    .catchlineceo {
+        background-color: rgb(8, 8, 8);
+        width: 100%;
+        height: fit-content;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: poppins-semibold, sans-serif;
+    }
+
     .innerceo {
         display: flex;
         align-items: flex-start;
-        flex-direction: row;
     }
+
+    .ceoimage {
+        width: 250px;
+        margin-right: 10px;
+    }
+
+
+
 
 }
 
@@ -1072,6 +1103,39 @@ body {
         height: 350px;
     }
 }
+
+/* different pages section of the services */
+.desktop-only {
+    display: flex;
+}
+
+.mobile-only {
+    display: none;
+}
+
+/* Tablet & Mobile */
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .service-dropdown select {
+        background-color: #003161;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}
+
 
 /* END SERVICES PAGE */
 
@@ -1291,14 +1355,53 @@ body {
     }
 }
 
+@media screen and (min-width:602px) and (max-width:1070px) {
+    .businesssecond-line {
+        width: 80%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .businesssecond-line img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .theprofbusiness {
+        width: 100%;
+    }
+
+    .theprofbusiness h3 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .progsides {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .progsides p {
+        width: 100%;
+    }
+
+    .insidebus img {
+        width: 300px;
+        height: 200px;
+    }
+
+    #secondbusinessimg {
+        margin-top: 25px;
+    }
+}
+
 /* END BUSINESS SCHOOL */
 
 /* COMMUNITIES START */
-
-.communitysec img {
-    width: 100%;
-    height: 600px
-}
 
 .commucontent1 {
     width: 100%;
@@ -1330,6 +1433,23 @@ body {
 
 .comsec1 {
     width: 45%;
+}
+
+
+@media screen and (max-width:600px) {
+    .communitysec img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .inincom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comsec1 {
+        width: 100%;
+    }
 }
 
 /* END COMMUNITIES  */
