@@ -27,7 +27,7 @@ function Footer() {
                             </div>
                             <div className='firstinfo'>
                                 <img src={address} alt='emailicon' />
-                                No. 2 catchline street Port harcourt
+                                The Edge Business School suite by Naweschools, Fan Anieh house, 89 club road, Regina opp. Obalande, Awka, Anambra State.
                             </div>
                             <div className='firstinfo'>
                                 <img src={phone} alt='emailicon' />

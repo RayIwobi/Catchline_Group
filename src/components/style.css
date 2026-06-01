@@ -1351,6 +1351,11 @@ body {
     height: 250px;
     object-fit:fill;
 }
+@media screen and (max-width:600px){
+    .handshake{
+        height: 150px;
+    }
+}
 
 .theprofbusiness h3 {
     font-size: 20px;
@@ -1691,6 +1696,7 @@ body {
 }
 
 .firstinfo {
+    width: 80%;
     display: flex;
     align-items: center;
     font-size: 17px;
