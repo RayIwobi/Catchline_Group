@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import arrowup from './components/assets/arrowup.png'
-import './app.css'
+import './App.css'
 
 export default function ScrollUpButton() {
   const [visible, setVisible] = useState(false);
