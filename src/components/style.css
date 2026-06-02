@@ -1562,6 +1562,65 @@ body {
    
 }
 
+.facultyContainer{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    color: black;
+}
+.txtcont{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.factext{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.facultyMembers{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+        margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fac1{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:600px){
+    .facultyMembers{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fac1{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+}
+
+@media screen and (max-width:900px){
+    .fac1{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+}
+
 /* END BUSINESS SCHOOL */
 
 /* COMMUNITIES START */

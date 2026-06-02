@@ -1,7 +1,8 @@
 import '../style.css'
 import bs from '../assets/other_images/bs.jpg'
 import aspirin from '../assets/other_images/aspirin.jpg'
-import ab2 from '../assets/other_images/ab2.jpg'
+// import ab2 from '../assets/other_images/ab2.jpg'
+import ab2 from '../assets/other_images/duo.png'
 import ab3 from '../assets/other_images/ab3.jpg'
 import alab from '../assets/other_images/alab2.png'
 import handshake from '../assets/other_images/handshake.jpg'
@@ -9,6 +10,10 @@ import gal1 from '../assets/other_images/gal1.jpg'
 import gal2 from '../assets/other_images/gal2.jpg'
 import gal3 from '../assets/other_images/gal3.jpg'
 import gal4 from '../assets/other_images/gal4.jpg'
+import member1 from '../assets/other_images/member1.png'
+import member2 from '../assets/other_images/member2.png'
+import member3 from '../assets/other_images/member3.png'
+import member4 from '../assets/other_images/member4.png'
 
 function BusinessSchool() {
     return (
@@ -149,6 +154,17 @@ function BusinessSchool() {
                                 <img src={ab3} alt='showimage'  id='secondbusinessimg' />
                             </div>
                                 <img src={ab3} alt='showimage'  id='showimagein' />
+                        </div>
+                    </div>
+                    <div className='facultyContainer'>
+                        <div className='txtcont'>
+                        <div className='factext'>Faculty Members</div>
+                        </div>
+                        <div className='facultyMembers'>
+                            <div><img src={member1} alt="member" className='fac1'/></div>
+                            <div><img src={member2} alt="member" className='fac1'/></div>
+                            <div><img src={member3} alt="member" className='fac1'/></div>
+                            <div><img src={member4} alt="member" className='fac1'/></div>
                         </div>
                     </div>
                     <div className='numbusiness'>
