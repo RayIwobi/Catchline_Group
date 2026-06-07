@@ -9,6 +9,7 @@ import About from "./components/pages/About";
 import Services from "./components/pages/Services";
 import Programmes from "./components/pages/Programmes";
 import BusinessSchool from "./components/pages/BusinessSchool";
+import PackageForm from "./components/pages/PackageForm";
 import Communities from "./components/pages/Communities";
 import Insights from "./components/pages/Insights";
 import Navbar from "./components/Navbar";
@@ -33,6 +34,7 @@ function App() {
         <Route path="/programmes" element={<Programmes />} />
         <Route path="/communities" element={<Communities />} />
         <Route path="/insights" element={<Insights />} />
+        <Route path="/form" element={<PackageForm />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/faq" element={<FAQ />} />
       </Routes>
