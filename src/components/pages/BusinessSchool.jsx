@@ -377,12 +377,12 @@ function BusinessSchool() {
               <h3>Practical class</h3>
               <div className="progsides" id="galleryimages1">
                 <div className="imagegal1">
-                  <img src={gal1} alt="gal1" className="galleryimage" />
-                  <img src={gal2} alt="gal1" className="galleryimage" />
+                  <img src={gal1} alt="gal1" className="galleryimage" id="gallery-image"/>
+                  <img src={gal2} alt="gal1" className="galleryimage" id="gallery-image"/>
                 </div>
                 <div className="imagegal1">
-                  <img src={gal3} alt="gal1" className="galleryimage" />
-                  <img src={gal4} alt="gal1" className="galleryimage" />
+                  <img src={gal3} alt="gal1" className="galleryimage" id="gallery-image"/>
+                  <img src={gal4} alt="gal1" className="galleryimage" id="gallery-image"/>
                 </div>
               </div>
             </div>

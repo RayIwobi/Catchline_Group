@@ -848,7 +848,7 @@ body {
   }
 
   .aboutTopInner img {
-    width: 100%;
+    display: none;
   }
 
   .serviceContaind {
@@ -893,6 +893,14 @@ body {
 
 @media screen and (max-width: 600px) {
   .ceoimage {
+    width: 100%;
+  }
+}
+@media screen and (max-width:700px){
+  .aboutTopInner img{
+    display: none;
+  }
+  .abouttoptext{
     width: 100%;
   }
 }
@@ -1602,6 +1610,7 @@ body {
 @media screen and (max-width: 900px) {
   #galleryimages1 {
     width: 80%;
+    height: auto;
   }
   .imagegal1 {
     width: 100%;
@@ -1622,9 +1631,10 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .galleryimage {
-    width: 300px;
-    height: 200px;
+
+  #gallery-image{
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -1686,6 +1696,7 @@ body {
 
   #fort2 img {
     width: 100%;
+    height: auto;
   }
 
   #fort3 {

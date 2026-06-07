@@ -12,7 +12,7 @@ function About() {
                 <img src={above} alt='' className='servicebanner' id='aboutimage'/>
                 <div className='aboutTop'>
                     <div className='aboutTopInner'>
-                        <img src={abt1} alt='aboutImage' />
+                        <img src={abt1} alt='aboutImage' id='about-image'/>
                         <div className='abouttoptext'>
                             <h3>Who We Are</h3>
                             <p>
