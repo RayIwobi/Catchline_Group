@@ -1339,6 +1339,10 @@ body {
   .handshake {
     height: 150px;
   }
+  #vision-image{
+    width: 100%;
+    height: auto;
+  }
 }
 
 .financeContainer {

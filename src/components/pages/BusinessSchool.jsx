@@ -40,7 +40,7 @@ function BusinessSchool() {
           </div>
           <div className="businesscont">
             <div className="businesssecond-line">
-              <img src={aspirin} alt="businessimage" />
+              <img src={aspirin} alt="businessimage" id="vision-image"/>
               <div className="businesstext">
                 <h4>Vision</h4>
                 <div>
